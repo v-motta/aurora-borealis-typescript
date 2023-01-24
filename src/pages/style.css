@@ -3,19 +3,16 @@
     border-radius: 100%;
 }
 
-.divider {
-    height: 1rem;
-    background-color: #F296C2;
+.about-text, .award, .lovestruck, .footer {
+    background-color: #2D2D2D;
 }
 
 .about-text {
-    background-color: #2D2D2D;
-    color: #fff;
     padding: 3rem 22%;
 }
 
-.about-text h1 {
-    font-family: 'Montserrat', sans-serif;
+.about-text h1, .award h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .directors .round {
@@ -25,14 +22,17 @@
     width: 150px;
 }
 
-.directors h3 {
-    font-weight: bold;
-}
-
 .directors span {
     color: #808080;
 }
 
-.directors .director img {
-    width: 100%;
+.button-meowch {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 13px;
+    color: #fff;
+}
+
+.social-medias a:hover i {
+    color: #F296C2;
 }
