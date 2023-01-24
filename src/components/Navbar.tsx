@@ -5,9 +5,9 @@ import logo from "../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-dark bg-body-tertiary" data-bs-theme="dark">
+    <nav className="navbar navbar-expand-lg bg-dark bg-body-tertiary" style={{ fontFamily: "IBM Plex Sans", fontStyle: "italic" }} data-bs-theme="dark">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand" style={{ marginLeft: "6rem" }} to="/">
           <img src={logo} alt="Aurora Borealis logo" width="90" height="60" />
         </Link>
         <button
@@ -21,18 +21,18 @@ const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div className="collapse navbar-collapse position-absolute top-50 start-50 translate-middle" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <NavLink className="nav-link" to="/">
+            <NavLink className="nav-link mx-4" to="/">
               Sobre
             </NavLink>
-            <NavLink className="nav-link" to="/lovestruck">
+            <NavLink className="nav-link mx-4" to="/lovestruck">
               Lovestruck
             </NavLink>
-            <NavLink className="nav-link" to="/aurostars">
+            <NavLink className="nav-link mx-4" to="/aurostars">
               Aurostars
             </NavLink>
-            <NavLink className="nav-link" to="/contact">
+            <NavLink className="nav-link mx-4" to="/contact">
               FAQ & Contato
             </NavLink>
           </div>
