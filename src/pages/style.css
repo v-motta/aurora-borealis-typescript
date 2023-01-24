@@ -1,0 +1,38 @@
+.carousel-indicators [data-bs-target] {
+    height: 30px;
+    border-radius: 100%;
+}
+
+.divider {
+    height: 1rem;
+    background-color: #F296C2;
+}
+
+.about-text {
+    background-color: #2D2D2D;
+    color: #fff;
+    padding: 3rem 22%;
+}
+
+.about-text h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.directors .round {
+    border-radius: 100%;
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+}
+
+.directors h3 {
+    font-weight: bold;
+}
+
+.directors span {
+    color: #808080;
+}
+
+.directors .director img {
+    width: 100%;
+}
