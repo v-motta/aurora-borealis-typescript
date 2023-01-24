@@ -31,7 +31,7 @@ const About = () => {
 
       <PinkDivider />
 
-      <div className="about-text text-white text-center">
+      <div className="about-text gray-bg text-white text-center">
         <h1 className="fw-semibold">Sobre nós</h1>
         <p>
           A <span className="fst-italic">Aurora Borealis Studio</span> é uma <span className="fst-italic">startup</span> criativa de produtos, especializando-se no estilo visual em <span>anime</span>.
