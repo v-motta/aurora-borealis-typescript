@@ -1,16 +1,14 @@
 import React from "react";
-import meowch from "../assets/meowch.png";
-import teamPic from "../assets/teamPic.jpg";
-import directorsPic from "../assets/directorsPic.jpg";
-import gobboPic from "../assets/gobboPic.jpg";
-import tankePic from "../assets/tankePic.jpg";
-import takahashiPic from "../assets/takahashiPic.jpg";
-import teamPic2 from "../assets/teamPic2.jpg";
-import teamPic3 from "../assets/teamPic3.jpg";
+import meowch from "../assets/meowch.jpg";
+import directors1 from "../assets/directors1.jpg";
+import directors2 from "../assets/directors2.jpg";
+import team1 from "../assets/team1.jpg";
+import team2 from "../assets/team2.jpg";
+import team3 from "../assets/team3.jpg";
 
 const CarouselMeowchSection = () => {
   return (
-    <div className="award text-white d-flex justify-content-center p-5">
+    <div className="award gray-bg text-white d-flex justify-content-center p-5">
       <div className="pe-5 me-5">
         <h1 className="pb-4">Magalu Gamejam - 2° lugar &#x1F3C6;</h1>
         <h3 className="pb-2">Big Festival - Agosto de 2022</h3>
@@ -21,7 +19,7 @@ const CarouselMeowchSection = () => {
           <button className="button-meowch py-3 px-4 fst-italic">Conheça o Meowch</button>
         </a>
       </div>
-      <div id="carouselExampleIndicators2" className="carousel slide">
+      <div id="carouselExampleIndicators2" className="carousel slide" style={{ width: "40%" }}>
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -29,33 +27,25 @@ const CarouselMeowchSection = () => {
           <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3" aria-label="Slide 4"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="4" aria-label="Slide 5"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="5" aria-label="Slide 6"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="6" aria-label="Slide 7"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="7" aria-label="Slide 8"></button>
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src={meowch} className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={teamPic} className="d-block w-100" alt="..." />
+            <img src={team1} className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={directorsPic} className="d-block w-100" alt="..." />
+            <img src={directors1} className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={gobboPic} className="d-block w-100" alt="..." />
+            <img src={directors2} className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={tankePic} className="d-block w-100" alt="..." />
+            <img src={team2} className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={takahashiPic} className="d-block w-100" alt="..." />
-          </div>
-          <div className="carousel-item">
-            <img src={teamPic2} className="d-block w-100" alt="..." />
-          </div>
-          <div className="carousel-item">
-            <img src={teamPic3} className="d-block w-100" alt="..." />
+            <img src={team3} className="d-block w-100" alt="..." />
           </div>
         </div>
       </div>
