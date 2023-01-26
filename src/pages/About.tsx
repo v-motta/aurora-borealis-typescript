@@ -56,7 +56,7 @@ const About = () => {
             <div className="round mb-4">
               <img src={gobbo} alt="Caik José Gobbo" className="w-100" />
             </div>
-            <h3 className="fw-bold">Caik José Gobbo</h3>
+            <h3 className="fw-bold">Caik Jose Gobbo</h3>
             <span className="fst-italic">CEO & Diretor Criativo</span>
           </div>
           <div className="director d-flex flex-column align-items-center mx-5">
