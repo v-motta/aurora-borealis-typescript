@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg" style={{ fontFamily: "IBM Plex Sans", fontStyle: "italic", borderBottom: "1px solid #fff", backgroundColor: "#212121" }} data-bs-theme="dark">
       <div className="container-fluid">
-        <Link className="navbar-brand" style={{ marginLeft: "6rem" }} to="/">
+        <Link className="navbar-brand ms-3" to="/">
           <img src={logo} alt="Aurora Borealis logo" width="90" height="60" />
         </Link>
         <button
@@ -21,7 +21,7 @@ const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse position-absolute top-50 start-50 translate-middle" id="navbarNavAltMarkup">
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
             <NavLink className="nav-link mx-4" to="/">
               Sobre

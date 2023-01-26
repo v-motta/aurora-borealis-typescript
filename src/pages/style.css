@@ -52,3 +52,20 @@ input::placeholder {
 textarea::placeholder {
     color: rgb(255, 255, 255, 20%) !important;
 }
+
+@media (min-width: 991.98px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .navbar-brand {
+        margin-left: 6rem !important;
+    }
+
+    .faq {
+        padding: 0 13rem;
+    }
+}
