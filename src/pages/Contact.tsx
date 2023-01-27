@@ -156,7 +156,10 @@ const Contact = () => {
               </div>
 
               <div className="d-flex flex-column col-12 col-lg-6">
-                <button className="btn bg-transparent text-white border-white fst-italic py-3">Adicionar arquivo</button>
+                <label htmlFor="input-file" className="btn bg-transparent text-white border-white fst-italic py-3">
+                  Adicionar arquivos
+                </label>
+                <input id="input-file" className="d-none" type="file" name="Adicionar arquivos" />
                 <span className="fst-italic text-gray">Formato de arquivos permitidos .pdf, .png, .jpg, .jpeg e .zip</span>
               </div>
             </div>
