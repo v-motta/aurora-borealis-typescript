@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg" style={{ fontFamily: "IBM Plex Sans", fontStyle: "italic", borderBottom: "1px solid #fff", backgroundColor: "#212121" }} data-bs-theme="dark">
       <div className="container-fluid">
         <Link className="navbar-brand ms-3" to="/">
-          <img src={logo} alt="Aurora Borealis logo" width="90" height="60" />
+          <img src={logo} alt="Aurora Borealis logo" width="80" />
         </Link>
         <button
           className="navbar-toggler"
