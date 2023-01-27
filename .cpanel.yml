@@ -1,6 +1,12 @@
----
+version: "2"
+
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/
-    - npm run deploy
-    - /bin/cp /build/* $DEPLOYPATH
+    - export DEPLOY_PATH=home1/aurora76/public_html/*
+    - export BUILD_PATH=build/*
+    - export SOURCE_PATH=.
+    - name: Copy files to target path
+      command: |
+        rm -rf $DEPLOY_PATH
+        mkdir -p $DEPLOY_PATH
+        cp -r $BUILD_PATH $DEPLOY_PATH
