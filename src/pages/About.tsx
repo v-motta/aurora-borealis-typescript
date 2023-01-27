@@ -31,7 +31,7 @@ const About = () => {
 
       <PinkDivider />
 
-      <div className="about-text gray-bg text-white text-center">
+      <div className="about-text gray-bg text-white text-center px-4 py-5">
         <h1 className="fw-semibold">Sobre nós</h1>
         <p>
           A <span className="fst-italic">Aurora Borealis Studio</span> é uma <span className="fst-italic">startup</span> criativa de produtos, especializando-se no estilo visual em <span>anime</span>.
@@ -51,22 +51,22 @@ const About = () => {
           Todos os três também auxiliam nos projetos com tarefas e atribuições como arte, música e programação.
         </p>
 
-        <div className="directors d-flex justify-content-center mt-5">
-          <div className="director d-flex flex-column align-items-center me-5">
+        <div className="directors d-flex flex-column flex-lg-row justify-content-center mt-5">
+          <div className="director d-flex flex-column align-items-center mb-4 mb-lg-0 me-lg-5">
             <div className="round mb-4">
               <img src={gobbo} alt="Caik José Gobbo" className="w-100" />
             </div>
             <h3 className="fw-bold">Caik Jose Gobbo</h3>
             <span className="fst-italic">CEO & Diretor Criativo</span>
           </div>
-          <div className="director d-flex flex-column align-items-center mx-5">
+          <div className="director d-flex flex-column align-items-center mb-4 mb-lg-0 mx-lg-5">
             <div className="round mb-4">
               <img src={tanke} alt="Gabriel Tanke" className="w-100" />
             </div>
             <h3 className="fw-bold">Gabriel Tanke</h3>
             <span className="fst-italic">CTO & Diretor de programação</span>
           </div>
-          <div className="director d-flex flex-column align-items-center ms-5">
+          <div className="director d-flex flex-column align-items-center ms-lg-5">
             <div className="round mb-4">
               <img src={takahashi} alt="Leticia Takahashi" className="w-100" />
             </div>
