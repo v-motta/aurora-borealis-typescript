@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="gray-bg d-flex flex-column flex-lg-row align-items-center justify-content-lg-between text-white p-4">
+    <div className="gray-bg d-flex flex-column flex-lg-row align-items-center justify-content-lg-between text-white py-5 px-4 position-relative">
       <div className="d-flex align-items-center mb-2 mb-lg-0">
         <span className="fs-5 fst-italic" style={{ color: "#757575" }}>
           &#x00A9; Aurora Borealis 2019 - 2023
@@ -28,6 +28,9 @@ const Footer = () => {
           </a>
         </div>
       </div>
+      <span className="position-absolute bottom-0 fst-italic" style={{ right: "0.7%", color: "#808080" }}>
+        developed by @mottinhadev
+      </span>
     </div>
   );
 };
