@@ -21,6 +21,7 @@ interface IFormInput {
 }
 
 const Contact = () => {
+  const [characters, setCharacters] = React.useState(0);
   const {
     register,
     handleSubmit,
@@ -32,8 +33,8 @@ const Contact = () => {
     <>
       <Navbar />
 
-      <div className="gray-bg d-flex justify-content-center justify-content-lg-start align-items-center position-relative" style={{ padding: "0 13rem" }}>
-        <div className="d-flex flex-column my-5 py-5 col-12 col-lg-8">
+      <div className="faq gray-bg d-flex justify-content-center justify-content-lg-start align-items-center position-relative">
+        <div className="d-flex flex-column my-5 py-5 col-10 col-lg-8">
           <button
             className="btn bg-transparent text-white border-white fst-italic fs-4 rounded-4 py-4"
             type="button"
@@ -86,15 +87,15 @@ const Contact = () => {
 
       <PinkDivider />
 
-      <div className="contact d-flex justify-content-center justify-content-lg-end position-relative gray-bg text-white p-5">
-        <div className="col-8 my-5">
+      <div className="contact d-flex justify-content-center justify-content-lg-end position-relative gray-bg text-white py-5">
+        <div className="col-10 col-lg-8 my-5">
           <div className="text-center text-lg-start">
             <h1 className="fw-bold m-0">Fale conosco</h1>
             <p className="fst-italic">Quer mandar algum feedback ou reclamação? Entre em contato!</p>
           </div>
 
-          <form className="d-flex justify-content-center justify-content-lg-start" onSubmit={handleSubmit(onSubmit)}>
-            <div className="col-6 me-5">
+          <form className="d-flex flex-lg-row flex-column justify-content-center justify-content-lg-start" onSubmit={handleSubmit(onSubmit)}>
+            <div className="col-lg-6 me-lg-5">
               <div className="mb-3">
                 <label htmlFor="exampleInputEmail" className="form-label">
                   Seu e-mail
@@ -124,7 +125,7 @@ const Contact = () => {
                   id="exampleInputName"
                   {...register("name", { required: true, minLength: 3, maxLength: 50 })}
                 />
-                {errors.name && (
+                {errors.name?.type === "required" && (
                   <p role="alert" className="ms-3" style={{ color: "#ff0f0f" }}>
                     Esse campo precisa ser preenchido
                   </p>
@@ -148,8 +149,8 @@ const Contact = () => {
                   Ao selecionar esta caixa, você nos autoriza a compartilhar seu e-mail conosco.
                 </label>
                 {errors.checkbox && (
-                  <p role="alert" className="ms-3" style={{ color: "#ff0f0f" }}>
-                    Esse campo precisa ser assinalado
+                  <p role="alert" style={{ color: "#ff0f0f" }}>
+                    Essa caixa precisa ser assinalado
                   </p>
                 )}
               </div>
@@ -160,12 +161,25 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-lg-4">
               <label htmlFor="" className="form-label color-transparent" style={{ color: "transparent" }}>
                 label
               </label>
-              <textarea className="form-control bg-transparent text-white h-50" placeholder="Digite sua mensagem aqui" {...register("message", { required: true, maxLength: 1000 })}></textarea>
-              {errors.message && (
+              <textarea
+                className="form-control bg-transparent text-white h-50"
+                placeholder="Digite sua mensagem aqui"
+                {...register("message", {
+                  required: true,
+                  maxLength: 1000,
+                  onChange(event) {
+                    setCharacters(event.target.value.length);
+                  },
+                })}
+              ></textarea>
+              <p className="text-end text-gray" style={{ color: characters > 1000 ? "#ff0f0f" : "rgb(255, 255, 255, 40%)" }}>
+                {characters}/1000
+              </p>
+              {errors.message?.type === "required" && (
                 <p role="alert" className="ms-3" style={{ color: "#ff0f0f" }}>
                   Esse campo precisa ser preenchido
                 </p>

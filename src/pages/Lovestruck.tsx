@@ -12,8 +12,8 @@ const Lovestruck = () => {
     <>
       <Navbar />
 
-      <div className="gray-bg text-white container-fluid d-flex align-items-center justify-content-center py-3">
-        <div className="text-center me-5" style={{ width: "30%" }}>
+      <div className="lovestruck gray-bg text-white d-flex flex-column flex-lg-row align-items-center justify-content-center py-3">
+        <div className="text-center me-lg-5 col-10 col-lg-3">
           <h1 className="fw-bold">Lovestruck - Just For Me</h1>
           <p>
             Lovestruck é um jogo de investigação e Simulação com elementos de RPG e Visual Novel
@@ -21,7 +21,7 @@ const Lovestruck = () => {
             Investigue crimes na pele de Nagisa Shio, uma estudante gênio que tenta desvendar acontecimentos estranhos que ocorrem na escola.
           </p>
         </div>
-        <img src={lovestruckLogo} alt="" width="25%" className="ms-5" />
+        <img src={lovestruckLogo} alt="" width="50%" className="ms-lg-5" />
       </div>
 
       <PinkDivider />

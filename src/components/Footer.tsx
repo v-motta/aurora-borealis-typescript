@@ -2,14 +2,14 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="gray-bg d-flex justify-content-between text-white p-4">
-      <div className="d-flex align-items-center">
+    <div className="gray-bg d-flex flex-column flex-lg-row align-items-center justify-content-lg-between text-white p-4">
+      <div className="d-flex align-items-center mb-2 mb-lg-0">
         <span className="fs-5 fst-italic" style={{ color: "#757575" }}>
           &#x00A9; Aurora Borealis 2019 - 2023
         </span>
       </div>
-      <div className="d-flex align-items-center">
-        <span className="me-4 fs-6">contato@aurorabgs.com</span>
+      <div className="d-flex flex-column flex-lg-row align-items-center">
+        <span className="me-lg-4 mb-3 mb-lg-0 fs-6">contato@aurorabgs.com</span>
         <div className="social-medias d-flex align-items-center fs-5">
           <a className="text-white" href="https://www.facebook.com/aurorabgs" target="_blank" rel="noopener noreferrer">
             <i className="bi bi-facebook m-2"></i>
