@@ -4,7 +4,6 @@ import lovestruck1 from "../assets/lovestruck1.png";
 import lovestruck2 from "../assets/slide1.png";
 import lovestruck3 from "../assets/lovestruck3.jpg";
 import Navbar from "../components/Navbar";
-import PinkDivider from "../components/PinkDivider";
 import Footer from "../components/Footer";
 
 const Lovestruck = () => {
@@ -24,19 +23,11 @@ const Lovestruck = () => {
         <img src={lovestruckLogo} alt="" width="50%" className="ms-lg-5" />
       </div>
 
-      <PinkDivider />
-
       <img src={lovestruck1} alt="" className="w-100" />
-
-      <PinkDivider />
 
       <img src={lovestruck2} alt="" className="w-100" />
 
-      <PinkDivider />
-
       <img src={lovestruck3} alt="" className="w-100" />
-
-      <PinkDivider />
 
       <Footer />
     </>

@@ -8,9 +8,9 @@ import team3 from "../assets/team3.jpg";
 
 const CarouselMeowchSection = () => {
   return (
-    <div className="award gray-bg text-white d-flex flex-column flex-lg-row justify-content-center p-5">
+    <div className="award gray-bg-2 text-white d-flex flex-column flex-lg-row justify-content-center p-5 d-lg-flex flex-lg-row align-items-lg-center">
       <div className="pe-lg-5 me-lg-5">
-        <h1 className="pb-4">Magalu Gamejam - 2° lugar &#x1F3C6;</h1>
+        <h1 className="pb-4 fw-semibold">Magalu Gamejam - 2° lugar &#x1F3C6;</h1>
         <h3 className="pb-2">Big Festival - Agosto de 2022</h3>
         <p className="pb-2 pb-lg-4">
           A <span className="fst-italic">Aurora Borealis Studio</span> recebeu o prêmio de 2° lugar na categoria Melhor Estúdio Brasileiro, com o projeto Meowch.
@@ -50,6 +50,14 @@ const CarouselMeowchSection = () => {
             <img src={team3} className="d-block w-100" alt="..." />
           </div>
         </div>
+        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
   );

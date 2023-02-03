@@ -2,7 +2,6 @@ import React from "react";
 import { SubmitHandler, useForm } from "react-hook-form";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import PinkDivider from "../components/PinkDivider";
 import faqImg from "../assets/faq.png";
 import contactImg from "../assets/contact.png";
 
@@ -33,7 +32,7 @@ const Contact = () => {
     <>
       <Navbar />
 
-      <div className="faq gray-bg d-flex justify-content-center justify-content-lg-start align-items-center position-relative">
+      <div className="faq gray-bg d-flex justify-content-center justify-content-lg-start align-items-center position-relative" style={{ zIndex: "5" }}>
         <div className="d-flex flex-column my-5 py-5 col-10 col-lg-8">
           <button
             className="btn bg-transparent text-white border-white fst-italic fs-4 rounded-4 py-4"
@@ -82,19 +81,17 @@ const Contact = () => {
           </div>
         </div>
 
-        <img src={faqImg} alt="" className="position-absolute bottom-0 d-none d-lg-block" width="20%" style={{ right: "5%" }} />
+        <img src={faqImg} alt="" className="position-absolute bottom-0 d-none d-lg-block" width="20%" style={{ right: "5%", zIndex: "-1", opacity: "50%" }} />
       </div>
 
-      <PinkDivider />
-
-      <div className="contact d-flex justify-content-center justify-content-lg-end position-relative gray-bg text-white py-5">
-        <div className="col-10 col-lg-8 my-5">
+      <div className="contact d-flex justify-content-center position-relative gray-bg-2 text-white py-5">
+        <div className="col-10 col-lg-8 my-5" style={{ zIndex: "5" }}>
           <div className="text-center text-lg-start">
-            <h1 className="fw-bold m-0">Fale conosco</h1>
-            <p className="fst-italic">Quer mandar algum feedback ou reclamação? Entre em contato!</p>
+            <h1 className="fw-semibold m-0">Fale conosco</h1>
+            <p className="fst-italic">Quer mandar algum feedback ou trabalhar conosco? Entre em contato!</p>
           </div>
 
-          <form className="d-flex flex-lg-row flex-column justify-content-center justify-content-lg-start" onSubmit={handleSubmit(onSubmit)}>
+          <form className="d-flex flex-lg-row flex-column justify-content-center justify-content-lg-start" id="contact" onSubmit={handleSubmit(onSubmit)}>
             <div className="col-lg-6 me-lg-5">
               <div className="mb-3">
                 <label htmlFor="exampleInputEmail" className="form-label">
@@ -103,7 +100,7 @@ const Contact = () => {
                 <input
                   type="email"
                   placeholder="Exemplo: contato@auroraborealis.com"
-                  className="form-control bg-transparent text-white"
+                  className="form-control gray-bg-2 text-white"
                   id="exampleInputEmail"
                   {...register("email", { required: true, minLength: 10, maxLength: 50 })}
                 />
@@ -121,7 +118,7 @@ const Contact = () => {
                 <input
                   type="text"
                   placeholder="Exemplo: Aurora Borealis"
-                  className="form-control bg-transparent text-white"
+                  className="form-control gray-bg-2 text-white"
                   id="exampleInputName"
                   {...register("name", { required: true, minLength: 3, maxLength: 50 })}
                 />
@@ -136,7 +133,7 @@ const Contact = () => {
                 <label htmlFor="exempleSelectSubject" className="form-label">
                   Assunto
                 </label>
-                <select id="exempleSelectSubject" className="form-select bg-transparent text-white" aria-label="Selecione o assunto" {...register("subject")}>
+                <select id="exempleSelectSubject" className="form-select gray-bg-2 text-white" aria-label="Selecione o assunto" {...register("subject")}>
                   <option value="carreira">Trabalhe conosco</option>
                   <option value="sugestoes">Sugestões</option>
                   <option value="outros">Outros</option>
@@ -156,7 +153,7 @@ const Contact = () => {
               </div>
 
               <div className="d-flex flex-column col-12 col-lg-6">
-                <label htmlFor="input-file" className="btn bg-transparent text-white border-white fst-italic py-3">
+                <label htmlFor="input-file" className="btn gray-bg-2 text-white border-white fst-italic py-3">
                   Adicionar arquivos
                 </label>
                 <input id="input-file" className="d-none" type="file" name="Adicionar arquivos" />
@@ -165,11 +162,11 @@ const Contact = () => {
             </div>
 
             <div className="col-lg-4">
-              <label htmlFor="" className="form-label color-transparent" style={{ color: "transparent" }}>
+              <label htmlFor="" className="form-label" style={{ color: "transparent" }}>
                 label
               </label>
               <textarea
-                className="form-control bg-transparent text-white h-50"
+                className="form-control gray-bg-2 text-white h-50"
                 placeholder="Digite sua mensagem aqui"
                 {...register("message", {
                   required: true,
@@ -187,14 +184,12 @@ const Contact = () => {
                   Esse campo precisa ser preenchido
                 </p>
               )}
-              <input type="submit" className="btn bg-transparent text-white border-white fst-italic py-3 mt-3 w-100" value="Enviar mensagem" />
+              <input type="submit" className="btn gray-bg-2 text-white border-white fst-italic py-3 mt-3 w-100" value="Enviar mensagem" />
             </div>
           </form>
+          <img src={contactImg} alt="" width="25%" className="position-absolute bottom-0 d-none d-lg-block" style={{ left: "5%", zIndex: "-1", opacity: "50%" }} />
         </div>
-        <img src={contactImg} alt="" width="25%" className="position-absolute bottom-0 d-none d-lg-block" style={{ left: "5%" }} />
       </div>
-
-      <PinkDivider />
 
       <Footer />
     </>
