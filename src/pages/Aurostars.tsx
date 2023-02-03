@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import aurostars from "../assets/aurostars.png";
 import stars from "../assets/stars.png";
-import PinkDivider from "../components/PinkDivider";
 import Footer from "../components/Footer";
 
 const Aurostars = () => {
@@ -18,20 +17,16 @@ const Aurostars = () => {
             VTubers.
           </p>
         </div>
-        <img src={aurostars} alt="" width="50%" />
+        <img src={aurostars} alt="" width="30%" />
       </div>
 
-      <PinkDivider />
-
-      <div className="aurostars gray-bg d-flex flex-column align-items-center text-center text-white py-5">
+      <div className="aurostars gray-bg-2 d-flex flex-column align-items-center text-center text-white py-5">
         <div className="col-10 col-lg-12">
           <h1 className="p-3 p-lg-5 fs-2">Parece que as nossas estrelas ainda não estão prontas para serem reveladas.</h1>
           <h1 className="p-3 p-lg-5 fs-2">Volte mais tarde.</h1>
         </div>
-        <img src={stars} alt="" className="p-3 p-lg-5 w-75" />
+        <img src={stars} alt="" className="p-3 p-lg-5 w-100" />
       </div>
-
-      <PinkDivider />
 
       <Footer />
     </>

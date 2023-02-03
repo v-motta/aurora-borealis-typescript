@@ -2,8 +2,11 @@
     background-color: #2D2D2D;
 }
 
+.gray-bg-2 {
+    background-color: #3d3d3d;
+}
 
-.about-text h1, .award h1, .aurostars h1, .contact h1 {
+.about-text h1, .award div h1, .aurostars h1, .contact h1 {
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
@@ -25,8 +28,12 @@
     color: #fff;
 }
 
+.color-footer {
+    color: #808080;
+}
+
 .social-medias a:hover i {
-    color: #F296C2;
+    color: #FFF;
 }
 
 .form-select {
@@ -53,11 +60,6 @@ textarea::placeholder {
     .about-text {
         padding: 3rem 22% !important;
     }
-    
-    .carousel-indicators [data-bs-target] {
-        height: 30px;
-        border-radius: 100%;
-    }
 
     .navbar-collapse {
         position: absolute;
@@ -65,21 +67,13 @@ textarea::placeholder {
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    
-    .navbar-brand {
-        margin-left: 6rem !important;
-    }
-    
+
     .faq {
         padding: 0 13rem;
     }
     
     .aurostars {
         padding: 10rem 8rem !important;
-    }
-
-    .aurostars img {
-        width: 30% !important;
     }
     
     .lovestruck img {

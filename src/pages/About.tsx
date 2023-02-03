@@ -6,14 +6,12 @@ import gobbo from "../assets/gobbo.jpg";
 import tanke from "../assets/tanke.jpg";
 import takahashi from "../assets/takahashi.jpg";
 import Footer from "../components/Footer";
-import PinkDivider from "../components/PinkDivider";
 import CarouselMeowchSection from "../components/CarouselMeowchSection";
 
 const About = () => {
   return (
     <>
       <Navbar />
-
       <div id="carouselExampleIndicators1" className="carousel slide">
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -27,11 +25,17 @@ const About = () => {
             <img src={slide2} className="d-block w-100" alt="..." />
           </div>
         </div>
+        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
+        </button>
       </div>
 
-      <PinkDivider />
-
-      <div className="about-text gray-bg text-white text-center px-4 py-5">
+      <div className="about-text gray-bg text-white text-center px-4 py-5 d-lg-flex flex-lg-column justify-content-lg-center">
         <h1 className="fw-semibold">Sobre nós</h1>
         <p>
           A <span className="fst-italic">Aurora Borealis Studio</span> é uma <span className="fst-italic">startup</span> criativa de produtos, especializando-se no estilo visual em <span>anime</span>.
@@ -76,11 +80,7 @@ const About = () => {
         </div>
       </div>
 
-      <PinkDivider />
-
       <CarouselMeowchSection />
-
-      <PinkDivider />
 
       <Footer />
     </>
