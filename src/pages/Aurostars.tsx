@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import aurostars from "../assets/aurostars.png";
+import aurostars2 from "../assets/aurostars2.jpg";
 import stars from "../assets/stars.png";
 import Footer from "../components/Footer";
 
@@ -27,6 +28,8 @@ const Aurostars = () => {
         </div>
         <img src={stars} alt="" className="p-3 p-lg-5 w-100" />
       </div>
+
+      <img src={aurostars2} alt="" className="w-100" />
 
       <Footer />
     </>
