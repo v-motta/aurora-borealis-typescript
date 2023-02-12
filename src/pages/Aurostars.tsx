@@ -1,8 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import aurostars from "../assets/aurostars.png";
-import aurostars2 from "../assets/aurostars2.jpg";
-import stars from "../assets/stars.png";
+import logoAurostars from "../assets/logo-aurostars.png";
+import revealAurostars from "../assets/reveal-aurostars.png";
 import Footer from "../components/Footer";
 
 const Aurostars = () => {
@@ -14,22 +13,15 @@ const Aurostars = () => {
         <div className="text-center mb-4 mb-lg-0 me-lg-5 col-6 col-lg-4">
           <h1 className="fw-bold mb-lg-5">O que é o Aurostars?</h1>
           <p>
-            O <span className="fst-italic">Aurostars</span> é o projeto da <span className="fst-italic">Aurora Borealis</span> que consiste na produção de nossos Youtubers Virtuais, ou melhor,
-            VTubers.
+            O <span className="fst-italic">Aurostars</span> é o projeto da <span className="fst-italic">Aurora Borealis</span> de agenciamento para Youtubers Virtuais, ou melhor, VTubers.
           </p>
+          <p>Em nossa primeira geração, temos 9 VTubers, ou como chamamos, estrelas.</p>
+          <p>Role a página para conhecer nossas estrelas!</p>
         </div>
-        <img src={aurostars} alt="" width="30%" />
+        <img src={logoAurostars} alt="" width="30%" />
       </div>
 
-      <div className="aurostars gray-bg-2 d-flex flex-column align-items-center text-center text-white py-5">
-        <div className="col-10 col-lg-12">
-          <h1 className="p-3 p-lg-5 fs-2">Parece que as nossas estrelas ainda não estão prontas para serem reveladas.</h1>
-          <h1 className="p-3 p-lg-5 fs-2">Volte mais tarde.</h1>
-        </div>
-        <img src={stars} alt="" className="p-3 p-lg-5 w-100" />
-      </div>
-
-      <img src={aurostars2} alt="" className="w-100" />
+      <img src={revealAurostars} alt="" className="w-100" />
 
       <Footer />
     </>
