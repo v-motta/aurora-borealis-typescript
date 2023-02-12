@@ -21,10 +21,16 @@ interface IFormInput {
 
 const Contact = () => {
   const [characters, setCharacters] = React.useState(0);
+  const [userEmail, setUserEmail] = React.useState("");
+
   const {
     register,
     formState: { errors },
   } = useForm<IFormInput>();
+
+  const handleEmail = (event: any) => {
+    setUserEmail(event.target.value);
+  };
 
   return (
     <>
@@ -93,7 +99,7 @@ const Contact = () => {
             className="d-flex flex-lg-row flex-column justify-content-center justify-content-lg-start"
             id="contact"
             target="_blank"
-            action="https://formsubmit.co/viniciusmotta0806@gmail.com"
+            action="https://formsubmit.co/contato@aurorabgs.com"
             method="POST"
           >
             <div className="col-lg-6 me-lg-5">
@@ -103,10 +109,10 @@ const Contact = () => {
                 </label>
                 <input
                   type="email"
-                  placeholder="Exemplo: contato@auroraborealis.com"
+                  placeholder="Exemplo: contato@aurorabgs.com"
                   className="form-control gray-bg-2 text-white"
                   id="exampleInputEmail"
-                  {...register("email", { required: true, minLength: 10, maxLength: 50 })}
+                  {...register("email", { required: true, minLength: 10, maxLength: 50, onChange: handleEmail })}
                 />
                 {errors.email && (
                   <p role="alert" className="ms-3" style={{ color: "#ff0f0f" }}>
@@ -114,6 +120,8 @@ const Contact = () => {
                   </p>
                 )}
               </div>
+
+              <input type="hidden" name="_cc" value={userEmail}></input>
 
               <div className="mb-3">
                 <label htmlFor="exampleInputName" className="form-label">
