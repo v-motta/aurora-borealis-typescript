@@ -68,7 +68,7 @@ const About = () => {
               <img src={tanke} alt="Gabriel Tanke" className="w-100" />
             </div>
             <h3 className="fw-bold">Gabriel Tanke</h3>
-            <span className="fst-italic">CTO & Diretor de programação</span>
+            <span className="fst-italic">CTO & Diretor de tecnologia</span>
           </div>
           <div className="director d-flex flex-column align-items-center ms-lg-5">
             <div className="round mb-4">
