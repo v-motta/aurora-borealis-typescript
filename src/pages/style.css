@@ -1,3 +1,7 @@
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
 .gray-bg {
     background-color: #2D2D2D;
 }
@@ -6,8 +10,8 @@
     background-color: #3d3d3d;
 }
 
-.about-text h1, .award div h1, .aurostars h1, .contact h1, .lovestruck h1 {
-    font-family: 'Montserrat Alternates', sans-serif;
+.about-text h1, .award div h1, .aurostars h1, .contact h1, .lovestruck h1, #credit-aurostar, .text-hover {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .directors .round {
@@ -22,7 +26,6 @@
 }
 
 .button-meowch {
-    background-color: transparent;
     border: 2px solid #fff;
     border-radius: 13px;
     color: #fff;
@@ -60,6 +63,149 @@ textarea::placeholder {
     color: rgb(255, 255, 255, 20%) !important;
 }
 
+.bg-aurostars {
+    background-image: url("../assets/bg-aurostars.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lock {
+    top: 80%;
+}
+
+.inv-border {
+    height: 900px;
+}
+
+.card-reveal {
+    width: 174px;
+    height: 715px;
+    clip-path: polygon(50% 0, 100% 7%, 100% 93%, 50% 100%, 0 93%, 0 7%);
+    background-color: #ffbe7c;
+}
+
+.aurostars-mikorin, .aurostars-yukime, .aurostars-venith, .aurostars-default, .bg-card-aurostars {
+    width: 170px;
+    height: 711px;
+    clip-path: polygon(50% 0, 100% 7%, 100% 93%, 50% 100%, 0 93%, 0 7%);
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    right: 2px;
+    background-repeat: no-repeat;
+}
+
+.bg-card-aurostars {
+    background-color: #020228 !important;
+}
+
+.flag-mikorin-1, .flag-yukime-1, .flag-venith-1 {
+    width: 140px;
+    height: 80px;
+    top: 80%;
+    clip-path: polygon(0 20%, 100% 20%, 87% 40%, 100% 60%, 0 60%);
+    background-color: #ffbe7c;
+}
+
+.flag-mikorin-2, .flag-yukime-2, .flag-venith-2 {
+    width: 136px;
+    height: 76px;
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    right: 2px;
+    clip-path: polygon(0 20%, 100% 20%, 87% 40%, 100% 60%, 0 60%);
+    background-color: #3F2979;
+}
+
+.flag-mikorin-2 h1, .flag-yukime-2 h1, .flag-venith-2 h1 {
+    top: 23%;
+    left: 42%;
+}
+
+.bg-screen-mikorin {
+    background-image: url("../assets/bg-mikorin.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-screen-yukime {
+    background-image: url("../assets/bg-yukime.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-screen-venith {
+    background-image: url("../assets/bg-venith.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aurostars-mikorin {
+    background-image: url("../assets/mikorin-white.png");
+    background-size: 480%;
+    background-position: 46%;
+}
+
+.aurostars-yukime {
+    background-image: url("../assets/yukime-white.png");
+    background-size: 580%;
+    background-position: 59%;
+}
+
+.aurostars-venith {
+    background-image: url("../assets/venith-white.png");
+    background-size: 565%;
+    background-position: 52% 45%;
+}
+
+.aurostars-default {
+    background-color: #020228 !important;
+}
+
+.opacity-4 {
+    animation: cardHover 1s ease-in-out;
+    opacity: 0.4;
+}
+
+.hoverOut {
+    animation: cardHoverOut 0.7s ease-in-out;
+}
+
+.title-hover {
+    display: none;
+}
+
+#credit-logo {
+    display: none;
+}
+
+@keyframes cardHover {
+    0% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0.4
+    }
+}
+
+@keyframes cardHoverOut {
+    0% {
+        opacity: 0.4
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@media (min-width: 900px) {
+    #credit-logo {
+        display: block !important;
+    }
+}
+
 @media (min-width: 991.98px) {
     .about-text {
         padding: 3rem 22% !important;
@@ -71,5 +217,16 @@ textarea::placeholder {
     
     .lovestruck img {
         width: 25% !important;
+    }
+
+    .aurostars img {
+        width: 30% !important;
+    }
+}
+
+
+@media (min-width: 1750px) {
+    .d-xxxl-flex {
+        display: flex !important;
     }
 }

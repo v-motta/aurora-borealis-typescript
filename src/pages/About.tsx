@@ -61,21 +61,21 @@ const About = () => {
               <img src={gobbo} alt="Caik José Gobbo" className="w-100" />
             </div>
             <h3 className="fw-bold">Caik Jose Gobbo</h3>
-            <span className="fst-italic">CEO & Diretor Criativo</span>
+            <span className="fst-italic">Cofundador & Presidente</span>
           </div>
           <div className="director d-flex flex-column align-items-center mb-4 mb-lg-0 mx-lg-5">
             <div className="round mb-4">
               <img src={tanke} alt="Gabriel Tanke" className="w-100" />
             </div>
             <h3 className="fw-bold">Gabriel Tanke</h3>
-            <span className="fst-italic">CTO & Diretor de tecnologia</span>
+            <span className="fst-italic">Cofundador & Diretor de Tecnologia</span>
           </div>
           <div className="director d-flex flex-column align-items-center ms-lg-5">
             <div className="round mb-4">
               <img src={takahashi} alt="Leticia Takahashi" className="w-100" />
             </div>
             <h3 className="fw-bold">Leticia Takahashi</h3>
-            <span className="fst-italic">Co-fundadora & Diretora de arte</span>
+            <span className="fst-italic">Cofundadora & Diretora de Arte</span>
           </div>
         </div>
       </div>
