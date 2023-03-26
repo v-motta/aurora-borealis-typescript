@@ -58,9 +58,7 @@ const Aurostars = () => {
           </h1>
         </div>
       </div>
-
-      {/* <img src={revealAurostars} alt="" className="w-100" /> */}
-
+      
       <Footer />
     </>
   );
