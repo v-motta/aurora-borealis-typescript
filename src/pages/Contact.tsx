@@ -1,5 +1,5 @@
 import React from "react";
-import { SubmitHandler, useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import faqImg from "../assets/faq.png";
@@ -21,12 +21,16 @@ interface IFormInput {
 
 const Contact = () => {
   const [characters, setCharacters] = React.useState(0);
+  const [userEmail, setUserEmail] = React.useState("");
+
   const {
     register,
-    handleSubmit,
     formState: { errors },
   } = useForm<IFormInput>();
-  const onSubmit: SubmitHandler<IFormInput> = (data) => console.log(data);
+
+  const handleEmail = (event: any) => {
+    setUserEmail(event.target.value);
+  };
 
   return (
     <>
@@ -35,7 +39,7 @@ const Contact = () => {
       <div className="faq gray-bg d-flex justify-content-center justify-content-lg-start align-items-center position-relative" style={{ zIndex: "5" }}>
         <div className="d-flex flex-column my-5 py-5 col-10 col-lg-8">
           <button
-            className="btn bg-transparent text-white border-white fst-italic fs-4 rounded-4 py-4"
+            className="btn bg-transparent text-white border-white fst-italic fs-5 rounded-4 py-4"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#multiCollapseExample1"
@@ -49,7 +53,7 @@ const Contact = () => {
           </div>
 
           <button
-            className="btn bg-transparent text-white border-white fst-italic fs-4 rounded-4 py-4 mt-5"
+            className="btn bg-transparent text-white border-white fst-italic fs-5 rounded-4 py-4 mt-5"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#multiCollapseExample2"
@@ -65,7 +69,7 @@ const Contact = () => {
           </div>
 
           <button
-            className="btn bg-transparent text-white border-white fs-4 rounded-4 fst-italic py-4 mt-5"
+            className="btn bg-transparent text-white border-white fs-5 rounded-4 fst-italic py-4 mt-5"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#multiCollapseExample3"
@@ -91,7 +95,13 @@ const Contact = () => {
             <p className="fst-italic">Quer mandar algum feedback ou trabalhar conosco? Entre em contato!</p>
           </div>
 
-          <form className="d-flex flex-lg-row flex-column justify-content-center justify-content-lg-start" id="contact" onSubmit={handleSubmit(onSubmit)}>
+          <form
+            className="d-flex flex-lg-row flex-column justify-content-center justify-content-lg-start"
+            id="contact"
+            target="_blank"
+            action="https://formsubmit.co/contato@aurorabgs.com"
+            method="POST"
+          >
             <div className="col-lg-6 me-lg-5">
               <div className="mb-3">
                 <label htmlFor="exampleInputEmail" className="form-label">
@@ -99,10 +109,10 @@ const Contact = () => {
                 </label>
                 <input
                   type="email"
-                  placeholder="Exemplo: contato@auroraborealis.com"
+                  placeholder="Exemplo: contato@aurorabgs.com"
                   className="form-control gray-bg-2 text-white"
                   id="exampleInputEmail"
-                  {...register("email", { required: true, minLength: 10, maxLength: 50 })}
+                  {...register("email", { required: true, minLength: 10, maxLength: 50, onChange: handleEmail })}
                 />
                 {errors.email && (
                   <p role="alert" className="ms-3" style={{ color: "#ff0f0f" }}>
@@ -110,6 +120,8 @@ const Contact = () => {
                   </p>
                 )}
               </div>
+
+              <input type="hidden" name="_cc" value={userEmail}></input>
 
               <div className="mb-3">
                 <label htmlFor="exampleInputName" className="form-label">
@@ -151,19 +163,11 @@ const Contact = () => {
                   </p>
                 )}
               </div>
-
-              <div className="d-flex flex-column col-12 col-lg-6">
-                <label htmlFor="input-file" className="btn gray-bg-2 text-white border-white fst-italic py-3">
-                  Adicionar arquivos
-                </label>
-                <input id="input-file" className="d-none" type="file" name="Adicionar arquivos" />
-                <span className="fst-italic text-gray">Formato de arquivos permitidos .pdf, .png, .jpg, .jpeg e .zip</span>
-              </div>
             </div>
 
             <div className="col-lg-4">
-              <label htmlFor="" className="form-label" style={{ color: "transparent" }}>
-                label
+              <label htmlFor="" className="form-label">
+                ⠀
               </label>
               <textarea
                 className="form-control gray-bg-2 text-white h-50"
