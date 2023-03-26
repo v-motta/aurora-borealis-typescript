@@ -31,9 +31,9 @@ const Aurostars = () => {
             <RevealCard aurostar="venith" />
           </div>
           <div className="d-none d-xxl-flex">
-            <DefaultCard />
-            <DefaultCard />
-            <DefaultCard />
+            <RevealCard aurostar="carolita" />
+            <RevealCard aurostar="kuro" />
+            <RevealCard aurostar="meiko" />
             <DefaultCard />
           </div>
           <div className="d-none d-xxxl-flex">

@@ -10,9 +10,10 @@ interface PageAurostarProps {
   loreEnd: string;
   linkTwitter: string;
   linkYoutube: string;
+  gender: string;
 }
 
-const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, linkYoutube }: PageAurostarProps) => {
+const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, linkYoutube, gender }: PageAurostarProps) => {
   return (
     <>
       <Navbar />
@@ -28,7 +29,7 @@ const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, 
               <br />
               {loreEnd}
             </p>
-            <h2 className="text-center fw-bold text-white fs-5 mt-3">Acompanhe a {aurostar} nas redes sociais!</h2>
+            <h2 className="text-center fw-bold text-white fs-5 mt-3">Acompanhe {gender === "male" ? "o" : "a"} {aurostar} nas redes sociais!</h2>
             <div className="d-flex justify-content-center w-100">
               <a href={`${linkTwitter}`} className="mx-4" target="_blank" rel="noreferrer">
                 <i className="bi bi-twitter text-white" style={{ fontSize: "5rem" }}></i>

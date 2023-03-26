@@ -84,7 +84,7 @@ textarea::placeholder {
     background-color: #ffbe7c;
 }
 
-.aurostars-mikorin, .aurostars-yukime, .aurostars-venith, .aurostars-default, .bg-card-aurostars {
+.aurostars-mikorin, .aurostars-yukime, .aurostars-venith, .aurostars-carolita, .aurostars-kuro, .aurostars-meiko, .aurostars-default, .bg-card-aurostars {
     width: 170px;
     height: 711px;
     clip-path: polygon(50% 0, 100% 7%, 100% 93%, 50% 100%, 0 93%, 0 7%);
@@ -99,7 +99,7 @@ textarea::placeholder {
     background-color: #020228 !important;
 }
 
-.flag-mikorin-1, .flag-yukime-1, .flag-venith-1 {
+.flag-aurostar-1, .flag-aurostar-1, .flag-aurostar-1 {
     width: 140px;
     height: 80px;
     top: 80%;
@@ -107,7 +107,7 @@ textarea::placeholder {
     background-color: #ffbe7c;
 }
 
-.flag-mikorin-2, .flag-yukime-2, .flag-venith-2 {
+.flag-aurostar-2, .flag-aurostar-2, .flag-aurostar-2 {
     width: 136px;
     height: 76px;
     top: 2px;
@@ -118,7 +118,7 @@ textarea::placeholder {
     background-color: #3F2979;
 }
 
-.flag-mikorin-2 h1, .flag-yukime-2 h1, .flag-venith-2 h1 {
+.flag-aurostar-2 h1, .flag-aurostar-2 h1, .flag-aurostar-2 h1 {
     top: 23%;
     left: 42%;
 }
@@ -141,6 +141,24 @@ textarea::placeholder {
     background-repeat: no-repeat;
 }
 
+.bg-screen-carolita {
+    background-image: url("../assets/bg-carolita.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-screen-kuro {
+    background-image: url("../assets/bg-kuro.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-screen-meiko {
+    background-image: url("../assets/bg-meiko.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .aurostars-mikorin {
     background-image: url("../assets/mikorin-white.png");
     background-size: 480%;
@@ -149,14 +167,32 @@ textarea::placeholder {
 
 .aurostars-yukime {
     background-image: url("../assets/yukime-white.png");
-    background-size: 580%;
-    background-position: 59%;
+    background-size: 690%;
+    background-position: 60% 25%;
 }
 
 .aurostars-venith {
     background-image: url("../assets/venith-white.png");
-    background-size: 565%;
+    background-size: 670%;
+    background-position: 52% 22%;
+}
+
+.aurostars-carolita {
+    background-image: url("../assets/carolita-white.png");
+    background-size: 500%;
     background-position: 52% 45%;
+}
+
+.aurostars-kuro {
+    background-image: url("../assets/kuro-white.png");
+    background-size: 700%;
+    background-position: 49% 58%;
+}
+
+.aurostars-meiko {
+    background-image: url("../assets/meiko-white.png");
+    background-size: 350%;
+    background-position: 50% 70%;
 }
 
 .aurostars-default {
