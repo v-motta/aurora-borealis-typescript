@@ -26,17 +26,19 @@ const Aurostars = () => {
       <div className="container-fluid bg-aurostars position-relative w-100 p-5 m-0">
         <div className="d-flex justify-content-center align-items-center w-100 p-5">
           <div className="d-flex flex-column flex-sm-row">
-            <RevealCard aurostar="mikorin" />
-            <RevealCard aurostar="yukime" />
-            <RevealCard aurostar="venith" />
-          </div>
-          <div className="d-none d-xxl-flex">
-            <RevealCard aurostar="carolita" />
-            <RevealCard aurostar="kuro" />
-            <RevealCard aurostar="meiko" />
-            <DefaultCard />
+            <div className="d-flex flex-column flex-xl-row">
+              <RevealCard aurostar="mikorin" />
+              <RevealCard aurostar="yukime" />
+              <RevealCard aurostar="venith" />
+            </div>
+            <div className="d-flex flex-column flex-xl-row">
+              <RevealCard aurostar="carolita" />
+              <RevealCard aurostar="kuro" />
+              <RevealCard aurostar="meiko" />
+            </div>
           </div>
           <div className="d-none d-xxxl-flex">
+            <DefaultCard />
             <DefaultCard />
             <DefaultCard />
           </div>
