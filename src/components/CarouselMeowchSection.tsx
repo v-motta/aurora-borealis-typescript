@@ -17,7 +17,7 @@ const CarouselMeowchSection = () => {
         </p>
         <div className="d-flex justify-content-center justify-content-lg-start">
           <a href="https://aurora-borealis-gs.itch.io/meowsh" target="_blank" rel="noopener noreferrer">
-            <button className="button-meowch py-3 px-4 fst-italic mb-5 mb-lg-0">Conheça o Meowch</button>
+            <button className="button-meowch bg-transparent py-3 px-4 fst-italic mb-5 mb-lg-0">Conheça o Meowch</button>
           </a>
         </div>
       </div>
