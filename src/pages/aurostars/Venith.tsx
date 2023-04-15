@@ -1,5 +1,5 @@
 import React from "react";
-import venithImg from "../../assets/venith-transparent.png";
+import venithImg from "../../assets/images/venith-transparent.webp";
 import PageAurostar from "../../components/PageAurostar";
 
 const Venith = () => {
@@ -13,6 +13,7 @@ const Venith = () => {
       linkTwitter="https://twitter.com/ScreamingVenith"
       linkYoutube="https://www.youtube.com/@ScreamingVenith"
       gender="female"
+      channelId="UCqqYCfixhEcGzlV3uezcc4w"
     />
   );
 };

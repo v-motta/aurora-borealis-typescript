@@ -1,5 +1,5 @@
 import React from "react";
-import carolitaImg from "../../assets/carolita-transparent.png";
+import carolitaImg from "../../assets/images/carolita-transparent.webp";
 import PageAurostar from "../../components/PageAurostar";
 
 const Carolita = () => {
@@ -14,6 +14,7 @@ const Carolita = () => {
       linkTwitter="https://twitter.com/CarolitaYuuna"
       linkYoutube="https://www.youtube.com/@CarolitaYuuna"
       gender="female"
+      channelId="UCTOlA909tAlU3hKBVOqnuew"
     />
   );
 };

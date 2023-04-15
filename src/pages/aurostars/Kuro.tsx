@@ -1,5 +1,5 @@
 import React from "react";
-import kuroImg from "../../assets/kuro-transparent.png";
+import kuroImg from "../../assets/images/kuro-transparent.webp";
 import PageAurostar from "../../components/PageAurostar";
 
 const Kuro = () => {
@@ -14,6 +14,7 @@ const Kuro = () => {
       linkTwitter="https://twitter.com/TsugomoriKuro"
       linkYoutube="https://www.youtube.com/@KuroTsugomori"
       gender="male"
+      channelId="UCTttsxJjs1TCGNne921RoiA"
     />
   );
 };

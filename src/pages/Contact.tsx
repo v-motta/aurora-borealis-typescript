@@ -2,8 +2,8 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import faqImg from "../assets/faq.png";
-import contactImg from "../assets/contact.png";
+import faqImg from "../assets/images/faq.webp";
+import contactImg from "../assets/images/contact.webp";
 
 enum SubjectEnum {
   work = "work",
@@ -85,7 +85,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <img src={faqImg} alt="" className="position-absolute bottom-0 d-none d-lg-block" width="20%" style={{ right: "5%", zIndex: "-1", opacity: "50%" }} />
+        <img src={faqImg} alt="faq imagem" className="position-absolute bottom-0 d-none d-lg-block" width="20%" style={{ right: "5%", zIndex: "-1", opacity: "50%" }} />
       </div>
 
       <div className="contact d-flex justify-content-center position-relative gray-bg-2 text-white py-5">
@@ -154,7 +154,7 @@ const Contact = () => {
 
               <div className="form-check mb-3">
                 <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" {...register("checkbox", { required: true })} />
-                <label className="form-check-label fst-italic text-gray" htmlFor="flexCheckDefault">
+                <label className="form-check-label fst-italic text-white" htmlFor="flexCheckDefault">
                   Ao selecionar esta caixa, você nos autoriza a compartilhar seu e-mail conosco.
                 </label>
                 {errors.checkbox && (
@@ -180,7 +180,7 @@ const Contact = () => {
                   },
                 })}
               ></textarea>
-              <p className="text-end text-gray" style={{ color: characters > 1000 ? "#ff0f0f" : "rgb(255, 255, 255, 40%)" }}>
+              <p className="text-end text-white" style={{ color: characters > 1000 ? "#ff0f0f" : "rgb(255, 255, 255, 40%)" }}>
                 {characters}/1000
               </p>
               {errors.message?.type === "required" && (
@@ -191,7 +191,7 @@ const Contact = () => {
               <input type="submit" className="btn gray-bg-2 text-white border-white fst-italic py-3 mt-3 w-100" value="Enviar mensagem" />
             </div>
           </form>
-          <img src={contactImg} alt="" width="25%" className="position-absolute bottom-0 d-none d-lg-block" style={{ left: "5%", zIndex: "-1", opacity: "50%" }} />
+          <img src={contactImg} alt="contact imagem" width="25%" className="position-absolute bottom-0 d-none d-lg-block" style={{ left: "5%", zIndex: "-1", opacity: "50%" }} />
         </div>
       </div>
 
