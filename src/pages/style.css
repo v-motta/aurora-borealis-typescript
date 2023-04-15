@@ -1,3 +1,37 @@
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: local('IBM Plex Sans'), url(../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: local('IBM Plex Sans'), url(../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Bold.ttf) format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url(../assets/fonts/Montserrat/static/Montserrat-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url(../assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf) format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url(../assets/fonts/Montserrat/static/Montserrat-Bold.ttf) format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url(../assets/fonts/Montserrat/static/Montserrat-ExtraBold.ttf) format('truetype');
+    font-weight: 900;
+}
+
 body {
     font-family: 'IBM Plex Sans', sans-serif;
 }
@@ -21,18 +55,10 @@ body {
     width: 150px;
 }
 
-.directors span {
-    color: #808080;
-}
-
 .button-meowch {
     border: 2px solid #fff;
     border-radius: 13px;
     color: #fff;
-}
-
-.color-footer {
-    color: #808080;
 }
 
 .social-medias a:hover i {
@@ -51,10 +77,6 @@ body {
     background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%28255, 255, 255, 0.40%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e");
 }
 
-.text-gray {
-    color: rgb(255, 255, 255, 40%)
-}
-
 input::placeholder {
     color: rgb(255, 255, 255, 20%) !important;
 }
@@ -64,7 +86,7 @@ textarea::placeholder {
 }
 
 .bg-aurostars {
-    background-image: url("../assets/bg-aurostars.png");
+    background-image: url("../assets/images/bg-aurostars.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -124,73 +146,73 @@ textarea::placeholder {
 }
 
 .bg-screen-mikorin {
-    background-image: url("../assets/bg-mikorin.png");
+    background-image: url("../assets/images/bg-mikorin.webp");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bg-screen-yukime {
-    background-image: url("../assets/bg-yukime.png");
+    background-image: url("../assets/images/bg-yukime.webp");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bg-screen-venith {
-    background-image: url("../assets/bg-venith.png");
+    background-image: url("../assets/images/bg-venith.webp");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bg-screen-carolita {
-    background-image: url("../assets/bg-carolita.png");
+    background-image: url("../assets/images/bg-carolita.webp");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bg-screen-kuro {
-    background-image: url("../assets/bg-kuro.png");
+    background-image: url("../assets/images/bg-kuro.webp");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bg-screen-meiko {
-    background-image: url("../assets/bg-meiko.png");
+    background-image: url("../assets/images/bg-meiko.webp");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .aurostars-mikorin {
-    background-image: url("../assets/mikorin-white.png");
+    background-image: url("../assets/images/mikorin-white.webp");
     background-size: 480%;
     background-position: 46%;
 }
 
 .aurostars-yukime {
-    background-image: url("../assets/yukime-white.png");
+    background-image: url("../assets/images/yukime-white.webp");
     background-size: 690%;
     background-position: 60% 25%;
 }
 
 .aurostars-venith {
-    background-image: url("../assets/venith-white.png");
+    background-image: url("../assets/images/venith-white.webp");
     background-size: 670%;
     background-position: 52% 22%;
 }
 
 .aurostars-carolita {
-    background-image: url("../assets/carolita-white.png");
+    background-image: url("../assets/images/carolita-white.webp");
     background-size: 500%;
     background-position: 52% 45%;
 }
 
 .aurostars-kuro {
-    background-image: url("../assets/kuro-white.png");
+    background-image: url("../assets/images/kuro-white.webp");
     background-size: 700%;
     background-position: 49% 58%;
 }
 
 .aurostars-meiko {
-    background-image: url("../assets/meiko-white.png");
+    background-image: url("../assets/images/meiko-white.webp");
     background-size: 350%;
     background-position: 50% 70%;
 }
