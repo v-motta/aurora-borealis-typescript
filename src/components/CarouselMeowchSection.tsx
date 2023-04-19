@@ -1,17 +1,17 @@
 import React from "react";
-import meowch from "../assets/meowch.jpg";
-import directors1 from "../assets/directors1.jpg";
-import directors2 from "../assets/directors2.jpg";
-import team1 from "../assets/team1.jpg";
-import team2 from "../assets/team2.jpg";
-import team3 from "../assets/team3.jpg";
+import meowch from "../assets/images/meowch.webp";
+import directors1 from "../assets/images/directors1.webp";
+import directors2 from "../assets/images/directors2.webp";
+import team1 from "../assets/images/team1.webp";
+import team2 from "../assets/images/team2.webp";
+import team3 from "../assets/images/team3.webp";
 
 const CarouselMeowchSection = () => {
   return (
     <div className="award gray-bg-2 text-white d-flex flex-column flex-lg-row justify-content-center p-5 d-lg-flex flex-lg-row align-items-lg-center">
       <div className="pe-lg-5 me-lg-5">
         <h1 className="pb-4 fw-semibold">Magalu Gamejam - 2° lugar &#x1F3C6;</h1>
-        <h3 className="pb-2">Big Festival - Agosto de 2022</h3>
+        <h2 className="pb-2 fs-3">Big Festival - Agosto de 2022</h2>
         <p className="pb-2 pb-lg-4">
           A <span className="fst-italic">Aurora Borealis Studio</span> recebeu o prêmio de 2° lugar na categoria Melhor Estúdio Brasileiro, com o projeto Meowch.
         </p>
@@ -32,22 +32,22 @@ const CarouselMeowchSection = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={meowch} className="d-block w-100" alt="..." />
+            <img src={meowch} className="d-block w-100" alt="meowch" />
           </div>
           <div className="carousel-item">
-            <img src={team1} className="d-block w-100" alt="..." />
+            <img src={team1} className="d-block w-100" alt="time foto 1" />
           </div>
           <div className="carousel-item">
-            <img src={directors1} className="d-block w-100" alt="..." />
+            <img src={directors1} className="d-block w-100" alt="diretores foto 1" />
           </div>
           <div className="carousel-item">
-            <img src={directors2} className="d-block w-100" alt="..." />
+            <img src={directors2} className="d-block w-100" alt="diretores foto 2" />
           </div>
           <div className="carousel-item">
-            <img src={team2} className="d-block w-100" alt="..." />
+            <img src={team2} className="d-block w-100" alt="time foto 2" />
           </div>
           <div className="carousel-item">
-            <img src={team3} className="d-block w-100" alt="..." />
+            <img src={team3} className="d-block w-100" alt="time foto 3" />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">

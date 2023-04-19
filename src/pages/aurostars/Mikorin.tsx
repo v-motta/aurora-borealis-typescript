@@ -1,5 +1,5 @@
 import React from "react";
-import mikorinImg from "../../assets/mikorin-transparent.png";
+import mikorinImg from "../../assets/images/mikorin-transparent.webp";
 import PageAurostar from "../../components/PageAurostar";
 
 const Mikorin = () => {
@@ -13,6 +13,7 @@ const Mikorin = () => {
       linkTwitter="https://twitter.com/MikorinAS"
       linkYoutube="https://www.youtube.com/@MikorinAS"
       gender="female"
+      channelId="UCCtuIp_tPICg8OC4l9l2QQw"
     />
   );
 };

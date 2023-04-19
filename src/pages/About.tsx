@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import slide1 from "../assets/slide1.png";
-import slide2 from "../assets/slide2.png";
-import gobbo from "../assets/gobbo.jpg";
-import tanke from "../assets/tanke.jpg";
-import takahashi from "../assets/takahashi.jpg";
+import slide1 from "../assets/images/slide1.webp";
+import slide2 from "../assets/images/slide2.webp";
+import gobbo from "../assets/images/gobbo.webp";
+import tanke from "../assets/images/tanke.webp";
+import takahashi from "../assets/images/takahashi.webp";
 import Footer from "../components/Footer";
 import CarouselMeowchSection from "../components/CarouselMeowchSection";
 
@@ -19,10 +19,10 @@ const About = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={slide1} className="d-block w-100" alt="..." />
+            <img src={slide1} className="d-block w-100" alt="slide 1" />
           </div>
           <div className="carousel-item">
-            <img src={slide2} className="d-block w-100" alt="..." />
+            <img src={slide2} className="d-block w-100" alt="slide 2" />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
@@ -60,21 +60,21 @@ const About = () => {
             <div className="round mb-4">
               <img src={gobbo} alt="Caik José Gobbo" className="w-100" />
             </div>
-            <h3 className="fw-bold">Caik Jose Gobbo</h3>
+            <h1 className="fw-bold fs-3">Caik Jose Gobbo</h1>
             <span className="fst-italic">Cofundador & Presidente</span>
           </div>
           <div className="director d-flex flex-column align-items-center mb-4 mb-lg-0 mx-lg-5">
             <div className="round mb-4">
               <img src={tanke} alt="Gabriel Tanke" className="w-100" />
             </div>
-            <h3 className="fw-bold">Gabriel Tanke</h3>
+            <h1 className="fw-bold fs-3">Gabriel Tanke</h1>
             <span className="fst-italic">Cofundador & Diretor de Tecnologia</span>
           </div>
           <div className="director d-flex flex-column align-items-center ms-lg-5">
             <div className="round mb-4">
               <img src={takahashi} alt="Leticia Takahashi" className="w-100" />
             </div>
-            <h3 className="fw-bold">Leticia Takahashi</h3>
+            <h1 className="fw-bold fs-3">Leticia Takahashi</h1>
             <span className="fst-italic">Cofundadora & Diretora de Arte</span>
           </div>
         </div>

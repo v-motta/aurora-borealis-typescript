@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import logoAurostars from "../assets/logo-aurostars-4.png";
-import auroraLogo from "../assets/logo.png";
+import logoAurostars from "../assets/images/logo-aurostars.webp";
+import auroraLogo from "../assets/images/logo.webp";
 import Footer from "../components/Footer";
 import RevealCard from "../components/CardReveal";
 import DefaultCard from "../components/DefaultCard";
@@ -20,23 +20,25 @@ const Aurostars = () => {
           <p>Em nossa primeira geração, temos 9 VTubers, ou como chamamos, estrelas.</p>
           <p>Role a página para conhecer nossas estrelas!</p>
         </div>
-        <img src={logoAurostars} alt="" width="100%" />
+        <img src={logoAurostars} alt="aurostars" width="100%" />
       </div>
 
       <div className="container-fluid bg-aurostars position-relative w-100 p-5 m-0">
         <div className="d-flex justify-content-center align-items-center w-100 p-5">
           <div className="d-flex flex-column flex-sm-row">
-            <RevealCard aurostar="mikorin" />
-            <RevealCard aurostar="yukime" />
-            <RevealCard aurostar="venith" />
-          </div>
-          <div className="d-none d-xxl-flex">
-            <RevealCard aurostar="carolita" />
-            <RevealCard aurostar="kuro" />
-            <RevealCard aurostar="meiko" />
-            <DefaultCard />
+            <div className="d-flex flex-column flex-xl-row">
+              <RevealCard aurostar="mikorin" />
+              <RevealCard aurostar="yukime" />
+              <RevealCard aurostar="venith" />
+            </div>
+            <div className="d-flex flex-column flex-xl-row">
+              <RevealCard aurostar="carolita" />
+              <RevealCard aurostar="kuro" />
+              <RevealCard aurostar="meiko" />
+            </div>
           </div>
           <div className="d-none d-xxxl-flex">
+            <DefaultCard />
             <DefaultCard />
             <DefaultCard />
           </div>
@@ -56,9 +58,7 @@ const Aurostars = () => {
           </h1>
         </div>
       </div>
-
-      {/* <img src={revealAurostars} alt="" className="w-100" /> */}
-
+      
       <Footer />
     </>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import meikoImg from "../../assets/meiko-transparent.png";
+import meikoImg from "../../assets/images/meiko-transparent.webp";
 import PageAurostar from "../../components/PageAurostar";
 
 const Meiko = () => {
@@ -14,6 +14,7 @@ const Meiko = () => {
       linkTwitter="https://twitter.com/TadashiMeiko"
       linkYoutube="https://www.youtube.com/@TadashiMeiko"
       gender="male"
+      channelId="UCaPMcrMN_1aRkKGsxVuh0pA"
     />
   );
 };

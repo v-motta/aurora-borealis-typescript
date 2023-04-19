@@ -23,4 +23,4 @@ fi
 docker build . -t $IMAGE_NAME
 
 # Cria o novo contêiner com base na imagem Docker mais recente
-docker run -p 8080:80 --name $CONTAINER_NAME $IMAGE_NAME
+docker run -p 80:80 --name $CONTAINER_NAME $IMAGE_NAME

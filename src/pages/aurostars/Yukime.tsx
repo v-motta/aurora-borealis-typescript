@@ -1,5 +1,5 @@
 import React from "react";
-import yukimeImg from "../../assets/yukime-transparent.png";
+import yukimeImg from "../../assets/images/yukime-transparent.webp";
 import PageAurostar from "../../components/PageAurostar";
 
 const Yukime = () => {
@@ -13,6 +13,7 @@ const Yukime = () => {
       linkTwitter="https://twitter.com/yukimestella"
       linkYoutube="https://www.youtube.com/@YukimeStella"
       gender="female"
+      channelId="UCAsGSw_t9wMu8JWRwMG7lFQ"
     />
   );
 };
