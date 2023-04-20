@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import slide1 from "../assets/images/slide1.webp";
-import slide2 from "../assets/images/slide2.webp";
-import gobbo from "../assets/images/gobbo.webp";
-import tanke from "../assets/images/tanke.webp";
-import takahashi from "../assets/images/takahashi.webp";
+import slide1 from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/slide1.webp";
+import slide2 from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/slide2.webp";
+import gobbo from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/gobbo.webp";
+import tanke from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/tanke.webp";
+import takahashi from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/takahashi.webp";
 import Footer from "../components/Footer";
 import CarouselMeowchSection from "../components/CarouselMeowchSection";
 
@@ -19,10 +19,10 @@ const About = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={slide1} className="d-block w-100" alt="slide 1" />
+            <img src={slide1} className="d-block w-100" alt="slide 1" loading="lazy" />
           </div>
           <div className="carousel-item">
-            <img src={slide2} className="d-block w-100" alt="slide 2" />
+            <img src={slide2} className="d-block w-100" alt="slide 2" loading="lazy" />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">

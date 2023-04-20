@@ -1,5 +1,5 @@
 import React from "react";
-import kuroImg from "../../assets/images/kuro-transparent.webp";
+import kuroImg from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/kuro-transparent.webp";
 import PageAurostar from "../../components/PageAurostar";
 
 const Kuro = () => {

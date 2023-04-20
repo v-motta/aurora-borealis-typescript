@@ -1,5 +1,5 @@
 import React from "react";
-import carolitaImg from "../../assets/images/carolita-transparent.webp";
+import carolitaImg from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/carolita-transparent.webp";
 import PageAurostar from "../../components/PageAurostar";
 
 const Carolita = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import mikorinImg from "../../assets/images/mikorin-transparent.webp";
+import mikorinImg from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/mikorin-transparent.webp";
 import PageAurostar from "../../components/PageAurostar";
 
 const Mikorin = () => {

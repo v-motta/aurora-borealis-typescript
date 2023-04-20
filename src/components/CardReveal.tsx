@@ -1,11 +1,11 @@
 import React from "react";
 import $ from "jquery";
-import starMikorin from "../assets/images/star-mikorin.webp";
-import starYukime from "../assets/images/star-yukime.webp";
-import starVenith from "../assets/images/star-venith.webp";
-import starCarolita from "../assets/images/star-carolita.webp";
-import starKuro from "../assets/images/star-kuro.webp";
-import starMeiko from "../assets/images/star-meiko.webp";
+import starMikorin from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/star-mikorin.webp";
+import starYukime from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/star-yukime.webp";
+import starVenith from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/star-venith.webp";
+import starCarolita from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/star-carolita.webp";
+import starKuro from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/star-kuro.webp";
+import starMeiko from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/star-meiko.webp";
 import { Link } from "react-router-dom";
 
 interface RevealCardProps {
@@ -39,7 +39,7 @@ const RevealCard = ({ aurostar }: RevealCardProps) => {
   return (
     <div className="d-flex align-items-center inv-border position-relative mx-2">
       <Link to={`/${aurostar}`} className={`link-aurostars-${aurostar} position-relative`} target="_blank">
-        <img src={whichStar()} alt={aurostar} className="position-absolute top-0 start-50 translate-middle z-3" />
+        <img src={whichStar()} alt={aurostar} className="position-absolute top-0 start-50 translate-middle z-3" loading="lazy" />
         <div id={`card-${aurostar}`} className="card-reveal position-relative">
           <div className={`aurostars-${aurostar} position-absolute`}></div>
           <div className={`bg-card-aurostars position-absolute z-n1`}></div>
