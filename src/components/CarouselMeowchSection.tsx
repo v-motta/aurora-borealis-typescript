@@ -1,10 +1,10 @@
 import React from "react";
-import meowch from "../assets/images/meowch.webp";
-import directors1 from "../assets/images/directors1.webp";
-import directors2 from "../assets/images/directors2.webp";
-import team1 from "../assets/images/team1.webp";
-import team2 from "../assets/images/team2.webp";
-import team3 from "../assets/images/team3.webp";
+import meowch from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/meowch.webp";
+import directors1 from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/directors1.webp";
+import directors2 from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/directors2.webp";
+import team1 from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/team1.webp";
+import team2 from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/team2.webp";
+import team3 from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/team3.webp";
 
 const CarouselMeowchSection = () => {
   return (
@@ -32,22 +32,22 @@ const CarouselMeowchSection = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={meowch} className="d-block w-100" alt="meowch" />
+            <img src={meowch} className="d-block w-100" alt="meowch" loading="lazy" />
           </div>
           <div className="carousel-item">
-            <img src={team1} className="d-block w-100" alt="time foto 1" />
+            <img src={team1} className="d-block w-100" alt="time foto 1" loading="lazy" />
           </div>
           <div className="carousel-item">
-            <img src={directors1} className="d-block w-100" alt="diretores foto 1" />
+            <img src={directors1} className="d-block w-100" alt="diretores foto 1" loading="lazy" />
           </div>
           <div className="carousel-item">
-            <img src={directors2} className="d-block w-100" alt="diretores foto 2" />
+            <img src={directors2} className="d-block w-100" alt="diretores foto 2" loading="lazy" />
           </div>
           <div className="carousel-item">
-            <img src={team2} className="d-block w-100" alt="time foto 2" />
+            <img src={team2} className="d-block w-100" alt="time foto 2" loading="lazy" />
           </div>
           <div className="carousel-item">
-            <img src={team3} className="d-block w-100" alt="time foto 3" />
+            <img src={team3} className="d-block w-100" alt="time foto 3" loading="lazy" />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">

@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import logoAurostars from "../assets/images/logo-aurostars.webp";
-import auroraLogo from "../assets/images/logo.webp";
+import logoAurostars from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/logo-aurostars.webp";
+import auroraLogo from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/logo.webp";
 import Footer from "../components/Footer";
 import RevealCard from "../components/CardReveal";
 import DefaultCard from "../components/DefaultCard";
@@ -20,7 +20,7 @@ const Aurostars = () => {
           <p>Em nossa primeira geração, temos 9 VTubers, ou como chamamos, estrelas.</p>
           <p>Role a página para conhecer nossas estrelas!</p>
         </div>
-        <img src={logoAurostars} alt="aurostars" width="100%" />
+        <img src={logoAurostars} alt="aurostars" width="100%" loading="lazy" />
       </div>
 
       <div className="container-fluid bg-aurostars position-relative w-100 p-5 m-0">
@@ -44,7 +44,7 @@ const Aurostars = () => {
           </div>
         </div>
         <div className="d-flex flex-column flex-sm-row position-relative">
-          <img src={auroraLogo} alt="" width={120} id="credit-logo" />
+          <img src={auroraLogo} alt="" width={120} id="credit-logo" loading="lazy" />
           <h1
             id="credit-aurostar"
             style={{ fontSize: "14px" }}

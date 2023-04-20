@@ -2,8 +2,8 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import faqImg from "../assets/images/faq.webp";
-import contactImg from "../assets/images/contact.webp";
+import faqImg from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/faq.webp";
+import contactImg from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/contact.webp";
 
 enum SubjectEnum {
   work = "work",
@@ -85,7 +85,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <img src={faqImg} alt="faq imagem" className="position-absolute bottom-0 d-none d-lg-block" width="20%" style={{ right: "5%", zIndex: "-1", opacity: "50%" }} />
+        <img src={faqImg} alt="faq imagem" className="position-absolute bottom-0 d-none d-lg-block" width="20%" style={{ right: "5%", zIndex: "-1", opacity: "50%" }} loading="lazy" />
       </div>
 
       <div className="contact d-flex justify-content-center position-relative gray-bg-2 text-white py-5">
@@ -191,7 +191,7 @@ const Contact = () => {
               <input type="submit" className="btn gray-bg-2 text-white border-white fst-italic py-3 mt-3 w-100" value="Enviar mensagem" />
             </div>
           </form>
-          <img src={contactImg} alt="contact imagem" width="25%" className="position-absolute bottom-0 d-none d-lg-block" style={{ left: "5%", zIndex: "-1", opacity: "50%" }} />
+          <img src={contactImg} alt="contact imagem" width="25%" className="position-absolute bottom-0 d-none d-lg-block" style={{ left: "5%", zIndex: "-1", opacity: "50%" }} loading="lazy" />
         </div>
       </div>
 

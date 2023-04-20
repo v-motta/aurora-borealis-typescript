@@ -1,5 +1,5 @@
 import React from "react";
-import meikoImg from "../../assets/images/meiko-transparent.webp";
+import meikoImg from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/meiko-transparent.webp";
 import PageAurostar from "../../components/PageAurostar";
 
 const Meiko = () => {

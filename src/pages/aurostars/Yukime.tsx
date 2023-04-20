@@ -1,5 +1,5 @@
 import React from "react";
-import yukimeImg from "../../assets/images/yukime-transparent.webp";
+import yukimeImg from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/yukime-transparent.webp";
 import PageAurostar from "../../components/PageAurostar";
 
 const Yukime = () => {
