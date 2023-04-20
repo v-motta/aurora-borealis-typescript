@@ -2,8 +2,6 @@ import React from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import SubscriberCount from "./SubscriberCount";
-import youtubeSVG from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/youtube.svg";
-import twitterSVG from "https://aurora-imagens.s3.sa-east-1.amazonaws.com/twitter.svg";
 
 interface PageAurostarProps {
   img: string;
@@ -37,13 +35,13 @@ const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, 
             <div className="d-flex justify-content-center w-100">
               <div className="d-flex flex-column align-items-center">
                 <a href={`${linkTwitter}`} className="mx-4" target="_blank" rel="noreferrer">
-                  <img src={twitterSVG} alt="twitter logo" width={80} loading="lazy" />
+                  <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/twitter.svg" alt="twitter logo" width={80} loading="lazy" />
                 </a>
                 <p className="text-white fw-bold fs-5 m-0">WIP</p>
               </div>
               <div className="d-flex flex-column align-items-center">
                 <a href={linkYoutube} className="mx-4" target="_blank" rel="noreferrer">
-                  <img src={youtubeSVG} alt="youtube logo" width={80} loading="lazy" />
+                  <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/youtube.svg" alt="youtube logo" width={80} loading="lazy" />
                 </a>
                 <SubscriberCount channelId={channelId} />
               </div>
