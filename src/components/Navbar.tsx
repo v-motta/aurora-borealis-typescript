@@ -24,11 +24,14 @@ const Navbar = () => {
             <NavLink className="nav-link mx-4" to="/">
               Sobre
             </NavLink>
-            <NavLink className="nav-link mx-4" to="/lovestruck">
-              Lovestruck
-            </NavLink>
             <NavLink className="nav-link mx-4" to="/aurostars">
               Aurostars
+            </NavLink>
+            <a href="http://134.65.235.220/" className="nav-link mx-4" target="_blank" rel="noreferrer">
+              Loja
+            </a>
+            <NavLink className="nav-link mx-4" to="/lovestruck">
+              Lovestruck
             </NavLink>
             <NavLink className="nav-link mx-4" to="/contact">
               FAQ & Contato
