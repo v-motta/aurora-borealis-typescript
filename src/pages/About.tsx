@@ -14,7 +14,9 @@ const About = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/slide1.webp" className="d-block w-100" alt="slide 1" loading="lazy" />
+            <a href="http://134.65.235.220/" target="_blank" rel="noopener noreferrer">
+              <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/slide1.webp" className="d-block w-100" alt="slide 1" loading="lazy" />
+            </a>
           </div>
           <div className="carousel-item">
             <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/slide2.webp" className="d-block w-100" alt="slide 2" loading="lazy" />
@@ -53,21 +55,21 @@ const About = () => {
         <div className="directors d-flex flex-column flex-lg-row justify-content-center mt-5">
           <div className="director d-flex flex-column align-items-center mb-4 mb-lg-0 me-lg-5">
             <div className="round mb-4">
-              <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/gobbo.webp" alt="Caik José Gobbo" className="w-100" loading="lazy" />
+              <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/gobbo.webp" alt="Caik José Gobbo" className="w-100" />
             </div>
             <h1 className="fw-bold fs-3">Caik Jose Gobbo</h1>
             <span className="fst-italic">Cofundador & Presidente</span>
           </div>
           <div className="director d-flex flex-column align-items-center mb-4 mb-lg-0 mx-lg-5">
             <div className="round mb-4">
-              <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/tanke.webp" alt="Gabriel Tanke" className="w-100" loading="lazy" />
+              <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/tanke.webp" alt="Gabriel Tanke" className="w-100" />
             </div>
             <h1 className="fw-bold fs-3">Gabriel Tanke</h1>
             <span className="fst-italic">Cofundador & Diretor de Tecnologia</span>
           </div>
           <div className="director d-flex flex-column align-items-center ms-lg-5">
             <div className="round mb-4">
-              <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/takahashi.webp" alt="Leticia Takahashi" className="w-100" loading="lazy" />
+              <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/takahashi.webp" alt="Leticia Takahashi" className="w-100" />
             </div>
             <h1 className="fw-bold fs-3">Leticia Takahashi</h1>
             <span className="fst-italic">Cofundadora & Diretora de Arte</span>
