@@ -27,6 +27,7 @@ const Footer = () => {
           <a className="text-white" href="https://www.facebook.com/aurorabgs" aria-label="Facebook da Aurora Borealis" target="_blank" rel="noopener noreferrer">
             <i className="bi bi-facebook m-2"></i>
           </a>
+      teste.aurora
         </div>
       </div>
     </div>
