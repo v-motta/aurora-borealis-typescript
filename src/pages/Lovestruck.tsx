@@ -21,9 +21,9 @@ const Lovestruck = () => {
 
       <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/lovestruck1.webp" alt="lovestruck imagem 1" className="w-100" loading="lazy" />
 
-      <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/slide1.webp" alt="lovestruck imagem 2" className="w-100" loading="lazy" />
+      <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/lovestruck2.webp" alt="lovestruck imagem 2" className="w-100" loading="lazy" />
 
-      <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/lovestruck3.jpg" alt="lovestruck imagem 3" className="w-100" loading="lazy" />
+      <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/lovestruck3.webp" alt="lovestruck imagem 3" className="w-100" loading="lazy" />
 
       <Footer />
     </>

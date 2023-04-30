@@ -12,7 +12,7 @@ const Footer = () => {
           <a className="text-white" href="https://twitter.com/aurorabgs" aria-label="Twitter da Aurora Borealis" target="_blank" rel="noopener noreferrer">
             <i className="bi bi-twitter m-2"></i>
           </a>
-          <a className="text-white" href="https://discord.gg/thuEGx2y2Q" aria-label="Discord da Aurora Borealis" target="_blank" rel="noopener noreferrer">
+          <a className="text-white" href="https://discord.gg/QHZPuUm9N6" aria-label="Discord da Aurora Borealis" target="_blank" rel="noopener noreferrer">
             <i className="bi bi-discord m-2"></i>
           </a>
           <a className="text-white" href="https://www.instagram.com/auroraborealisgs/" aria-label="Instagram da Aurora Borealis" target="_blank" rel="noopener noreferrer">
@@ -27,7 +27,6 @@ const Footer = () => {
           <a className="text-white" href="https://www.facebook.com/aurorabgs" aria-label="Facebook da Aurora Borealis" target="_blank" rel="noopener noreferrer">
             <i className="bi bi-facebook m-2"></i>
           </a>
-      teste.aurora
         </div>
       </div>
     </div>
