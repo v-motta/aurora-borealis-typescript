@@ -14,6 +14,7 @@ const Kuro = () => {
       linkYoutube="https://www.youtube.com/@KuroTsugomori"
       gender="male"
       channelId="UCTttsxJjs1TCGNne921RoiA"
+      followers="200+"
     />
   );
 };

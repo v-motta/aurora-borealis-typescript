@@ -2,7 +2,6 @@ import React from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import SubscriberCount from "./SubscriberCount";
-import FollowerCount from "./FollowerCount";
 
 interface PageAurostarProps {
   img: string;
@@ -14,9 +13,10 @@ interface PageAurostarProps {
   linkYoutube: string;
   gender: string;
   channelId: string;
+  followers: string;
 }
 
-const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, linkYoutube, gender, channelId }: PageAurostarProps) => {
+const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, linkYoutube, gender, channelId, followers }: PageAurostarProps) => {
   return (
     <>
       <Navbar />
@@ -38,7 +38,10 @@ const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, 
                 <a href={`${linkTwitter}`} className="mx-4" target="_blank" rel="noreferrer">
                   <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/twitter.svg" alt="twitter logo" width={80} loading="lazy" />
                 </a>
-                <FollowerCount username="TadashiMeiko" />
+                <div className="d-flex flex-column align-items-center">
+                    <p className="text-white fw-bold fs-5 m-0">{followers}</p>
+                    <p className="text-white fw-bold fs-5 m-0">seguidores</p>
+                </div>
               </div>
               <div className="d-flex flex-column align-items-center">
                 <a href={linkYoutube} className="mx-4" target="_blank" rel="noreferrer">

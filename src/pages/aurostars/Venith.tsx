@@ -13,6 +13,7 @@ const Venith = () => {
       linkYoutube="https://www.youtube.com/@ScreamingVenith"
       gender="female"
       channelId="UCqqYCfixhEcGzlV3uezcc4w"
+      followers="1.1k+"
     />
   );
 };
