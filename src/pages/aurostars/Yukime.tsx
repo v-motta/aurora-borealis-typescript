@@ -13,6 +13,7 @@ const Yukime = () => {
       linkYoutube="https://www.youtube.com/@YukimeStella"
       gender="female"
       channelId="UCAsGSw_t9wMu8JWRwMG7lFQ"
+      followers="600+"
     />
   );
 };

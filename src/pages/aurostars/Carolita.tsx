@@ -14,6 +14,7 @@ const Carolita = () => {
       linkYoutube="https://www.youtube.com/@CarolitaYuuna"
       gender="female"
       channelId="UCTOlA909tAlU3hKBVOqnuew"
+      followers="1.5k+"
     />
   );
 };

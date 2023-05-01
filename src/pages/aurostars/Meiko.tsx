@@ -14,6 +14,7 @@ const Meiko = () => {
       linkYoutube="https://www.youtube.com/@TadashiMeiko"
       gender="male"
       channelId="UCaPMcrMN_1aRkKGsxVuh0pA"
+      followers="600+"
     />
   );
 };
