@@ -16,14 +16,14 @@ const Lovestruck = () => {
             Investigue crimes na pele de Nagisa Shio, uma estudante gênio que tenta desvendar acontecimentos estranhos que ocorrem na escola.
           </p>
         </div>
-        <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/lovestruck-logo.webp" alt="lovestruck logo" width="50%" className="ms-lg-5" loading="lazy" />
+        <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/lovestruck/logo-lovestruck.webp" alt="lovestruck logo" width="50%" className="ms-lg-5" loading="lazy" />
       </div>
 
-      <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/lovestruck1.webp" alt="lovestruck imagem 1" className="w-100" loading="lazy" />
+      <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/lovestruck/lovestruck1.webp" alt="lovestruck imagem 1" className="w-100" loading="lazy" />
 
-      <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/lovestruck2.webp" alt="lovestruck imagem 2" className="w-100" loading="lazy" />
+      <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/lovestruck/lovestruck2.webp" alt="lovestruck imagem 2" className="w-100" loading="lazy" />
 
-      <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/lovestruck3.webp" alt="lovestruck imagem 3" className="w-100" loading="lazy" />
+      <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/lovestruck/lovestruck3.webp" alt="lovestruck imagem 3" className="w-100" loading="lazy" />
 
       <Footer />
     </>

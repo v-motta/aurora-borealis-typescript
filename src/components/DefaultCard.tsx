@@ -5,9 +5,9 @@ const DefaultCard = () => {
   return (
     <div className="d-flex align-items-center inv-border position-relative mx-2">
       <Link to="" className="pe-none position-relative">
-        <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/dark-star.webp" alt="estrela negra" className="position-absolute top-0 start-50 translate-middle z-3" loading="lazy" />
-        <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/star-middle.webp" alt="estrela do meio" className="position-absolute top-50 start-50 translate-middle z-3" loading="lazy" />
-        <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/lock.webp" alt="cadeado" className="position-absolute lock start-50 translate-middle z-3" loading="lazy" />
+        <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/default-card/dark-star.webp" alt="estrela negra" className="position-absolute top-0 start-50 translate-middle z-3" loading="lazy" />
+        <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/default-card/star-middle.webp" alt="estrela do meio" className="position-absolute top-50 start-50 translate-middle z-3" loading="lazy" />
+        <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/default-card/lock.webp" alt="cadeado" className="position-absolute lock start-50 translate-middle z-3" loading="lazy" />
         <div id="card-default" className="card-reveal position-relative">
           <div className="aurostars-default position-absolute bg-white"></div>
         </div>

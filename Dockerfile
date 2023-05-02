@@ -8,8 +8,8 @@ WORKDIR /app
 COPY . /app
 
 # Instala as dependências e compila o aplicativo React
-RUN yarn install
-RUN yarn run build
+RUN npm install
+RUN npm run build
 
 # Etapa 2: usar o servidor web Nginx para hospedar o aplicativo
 FROM nginx:latest
