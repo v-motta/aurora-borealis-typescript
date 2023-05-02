@@ -5,7 +5,7 @@ const Kuro = () => {
   return (
     <PageAurostar
       aurostar="Kuro Tsugomori"
-      img="https://aurora-imagens.s3.sa-east-1.amazonaws.com/kuro-transparent.webp"
+      img="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/kuro-transparent.webp"
       bgName="kuro"
       loreStart="Kuro Tsugomori, o Sacerdote do Luar."
       loreEnd="Ele é filho adotivo e herdeiro de uma família renomada de sacerdotes, com o poder de reencarnar almas! Porém, todos que ele reencarna se tornam pequenas ovelhas... Kuro é tímido, porém amigável e acolhedor. Uma curiosidade: Kuro também é o irmão biológico de Meiko!"

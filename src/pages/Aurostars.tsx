@@ -18,7 +18,7 @@ const Aurostars = () => {
           <p>Em nossa primeira geração, temos 9 VTubers, ou como chamamos, estrelas.</p>
           <p>Role a página para conhecer nossas estrelas!</p>
         </div>
-        <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/logo-aurostars.webp" alt="aurostars" width="100%" loading="lazy" />
+        <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/logo-aurostars.webp" alt="aurostars" width="100%" loading="lazy" />
       </div>
 
       <div className="container-fluid bg-aurostars position-relative w-100 p-5 m-0">

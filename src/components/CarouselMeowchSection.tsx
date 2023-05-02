@@ -26,22 +26,22 @@ const CarouselMeowchSection = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/meowch.webp" className="d-block w-100" alt="meowch" loading="lazy" />
+            <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/meowch/meowch.webp" className="d-block w-100" alt="meowch" loading="lazy" />
           </div>
           <div className="carousel-item">
-            <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/team1.webp" className="d-block w-100" alt="time foto 1" loading="lazy" />
+            <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/meowch/team1.webp" className="d-block w-100" alt="time foto 1" loading="lazy" />
           </div>
           <div className="carousel-item">
-            <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/directors1.webp" className="d-block w-100" alt="diretores foto 1" loading="lazy" />
+            <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/meowch/directors1.webp" className="d-block w-100" alt="diretores foto 1" loading="lazy" />
           </div>
           <div className="carousel-item">
-            <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/directors2.webp" className="d-block w-100" alt="diretores foto 2" loading="lazy" />
+            <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/meowch/directors2.webp" className="d-block w-100" alt="diretores foto 2" loading="lazy" />
           </div>
           <div className="carousel-item">
-            <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/team2.webp" className="d-block w-100" alt="time foto 2" loading="lazy" />
+            <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/meowch/team2.webp" className="d-block w-100" alt="time foto 2" loading="lazy" />
           </div>
           <div className="carousel-item">
-            <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/team3.webp" className="d-block w-100" alt="time foto 3" loading="lazy" />
+            <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/meowch/team3.webp" className="d-block w-100" alt="time foto 3" loading="lazy" />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">

@@ -5,7 +5,7 @@ const Meiko = () => {
   return (
     <PageAurostar
       aurostar="Meiko Tadashi"
-      img="https://aurora-imagens.s3.sa-east-1.amazonaws.com/meiko-transparent.webp"
+      img="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/meiko-transparent.webp"
       bgName="meiko"
       loreStart="Meiko Tadashi, o Vigilante Espiritual."
       loreEnd="Ele é descendente e herdeiro da linhagem Qilin, e tem como função manter a paz entre o mundo humano e espiritual, especialmente sobre o ciclo de vida, morte e reencarnação das almas. Ele segue buscando por seu irmão biológico desertado, Kuro. Meiko parece fechado, mas é amigável e está sempre interessado em conhecer coisas e pessoas novas."
