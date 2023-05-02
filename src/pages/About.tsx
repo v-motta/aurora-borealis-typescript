@@ -15,11 +15,11 @@ const About = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <a href="http://134.65.235.220/" target="_blank" rel="noopener noreferrer">
-              <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/slide1.webp" className="d-block w-100" alt="slide 1" loading="lazy" />
+              <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/slide1-780.webp" className="d-block w-100" alt="slide 1" loading="lazy" />
             </a>
           </div>
           <div className="carousel-item">
-            <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/slide2.webp" className="d-block w-100" alt="slide 2" loading="lazy" />
+            <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/slide2-780.webp" className="d-block w-100" alt="slide 2" loading="lazy" />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
