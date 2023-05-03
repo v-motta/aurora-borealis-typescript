@@ -36,7 +36,7 @@ const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, 
             <div className="d-flex justify-content-center w-100">
               <div className="d-flex flex-column align-items-center">
                 <a href={`${linkTwitter}`} className="mx-4" target="_blank" rel="noreferrer">
-                  <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/twitter.svg" alt="twitter logo" width={80} loading="lazy" />
+                  <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/icons/twitter.svg" alt="twitter logo" width={80} loading="lazy" />
                 </a>
                 <div className="d-flex flex-column align-items-center">
                     <p className="text-white fw-bold fs-5 m-0">{followers}</p>
@@ -45,7 +45,7 @@ const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, 
               </div>
               <div className="d-flex flex-column align-items-center">
                 <a href={linkYoutube} className="mx-4" target="_blank" rel="noreferrer">
-                  <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/youtube.svg" alt="youtube logo" width={80} loading="lazy" />
+                  <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/icons/youtube.svg" alt="youtube logo" width={80} loading="lazy" />
                 </a>
                 <SubscriberCount channelId={channelId} />
               </div>
