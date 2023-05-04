@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import SubscriberCount from "./SubscriberCount";
+import { Link, useLocation } from "react-router-dom";
 
 interface PageAurostarProps {
   img: string;
@@ -17,11 +18,59 @@ interface PageAurostarProps {
 }
 
 const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, linkYoutube, gender, channelId, followers }: PageAurostarProps) => {
+  const [mikorinColor, setMikorinColor] = useState("gray");
+  const [yukimeColor, setYukimeColor] = useState("gray");
+  const [venithColor, setVenithColor] = useState("gray");
+  const [carolitaColor, setCarolitaColor] = useState("gray");
+  const [kuroColor, setKuroColor] = useState("gray");
+  const [meikoColor, setMeikoColor] = useState("gray");
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.pathname === "/mikorin") {
+      setMikorinColor("color");
+    } else if (location.pathname === "/yukime") {
+      setYukimeColor("color");
+    } else if (location.pathname === "/venith") {
+      setVenithColor("color");
+    } else if (location.pathname === "/carolita") {
+      setCarolitaColor("color");
+    } else if (location.pathname === "/kuro") {
+      setKuroColor("color");
+    } else if (location.pathname === "/meiko") {
+      setMeikoColor("color");
+    }
+  }, [location]);
+  
   return (
     <>
       <Navbar />
       <div className={`bg-screen-${bgName} container-fluid w-100 p-5`}>
         <div className="row flex-column flex-lg-row justify-content-center align-items-center w-100 m-0">
+          <div className="aurostars-portrait w-100 d-flex justify-content-center align-items-center flex-column flex-lg-row gx-5">
+            <div className="mb-lg-0 mb-3">
+              <Link to="/mikorin">
+                <img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/mikorin-${mikorinColor}.webp`} width={60} alt="mikorin" loading="lazy" />
+              </Link>
+              <Link to="/yukime">
+                <img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/yukime-${yukimeColor}.webp`} width={60} alt="yukime" loading="lazy" />
+              </Link>
+              <Link to="/venith">
+                <img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/venith-${venithColor}.webp`} width={60} alt="venith" loading="lazy" />
+              </Link>
+            </div>
+            <div className="mb-lg-0 mb-3">
+              <Link to="/carolita">
+                <img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/carolita-${carolitaColor}.webp`} width={60} alt="carolita" loading="lazy" />
+              </Link>
+              <Link to="/kuro">
+                <img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/kuro-${kuroColor}.webp`} width={60} alt="kuro" loading="lazy" />
+              </Link>
+              <Link to="/meiko">
+                <img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/meiko-${meikoColor}.webp`} width={60} alt="meiko" loading="lazy" />
+              </Link>
+            </div>
+          </div>
           <div className="col-12 col-lg-5">
             <img src={img} alt={aurostar} className="w-100" loading="lazy" />
           </div>
