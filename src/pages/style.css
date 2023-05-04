@@ -238,6 +238,11 @@ textarea::placeholder {
     display: none;
 }
 
+.aurostars-portrait a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 @keyframes cardHover {
     0% {
         opacity: 1
