@@ -32,7 +32,7 @@ const RevealCard = ({ aurostar }: RevealCardProps) => {
 
   return (
     <div className="d-flex align-items-center inv-border position-relative mx-2">
-      <Link to={`/${aurostar}`} className={`link-aurostars-${aurostar} position-relative`} target="_blank">
+      <Link to={`/${aurostar}`} className={`link-aurostars-${aurostar} position-relative`}>
         <img src={whichStar()} alt={aurostar} className="position-absolute top-0 start-50 translate-middle z-3" loading="lazy" />
         <div id={`card-${aurostar}`} className="card-reveal position-relative">
           <div className={`aurostars-${aurostar} position-absolute`}></div>

@@ -50,24 +50,24 @@ const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, 
           <div className="aurostars-portrait w-100 d-flex justify-content-center align-items-center flex-column flex-lg-row gx-5">
             <div className="mb-lg-0 mb-3">
               <Link to="/mikorin">
-                <img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/mikorin-${mikorinColor}.webp`} width={60} alt="mikorin" loading="lazy" />
+                <img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/mikorin-${mikorinColor}.webp`} width={60} alt="mikorin" loading="lazy" style={{borderRadius: "10px"}} />
               </Link>
               <Link to="/yukime">
-                <img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/yukime-${yukimeColor}.webp`} width={60} alt="yukime" loading="lazy" />
+                <img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/yukime-${yukimeColor}.webp`} width={60} alt="yukime" loading="lazy" style={{borderRadius: "10px"}} />
               </Link>
               <Link to="/venith">
-                <img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/venith-${venithColor}.webp`} width={60} alt="venith" loading="lazy" />
+                <img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/venith-${venithColor}.webp`} width={60} alt="venith" loading="lazy" style={{borderRadius: "10px"}} />
               </Link>
             </div>
             <div className="mb-lg-0 mb-3">
               <Link to="/carolita">
-                <img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/carolita-${carolitaColor}.webp`} width={60} alt="carolita" loading="lazy" />
+                <img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/carolita-${carolitaColor}.webp`} width={60} alt="carolita" loading="lazy" style={{borderRadius: "10px"}} />
               </Link>
               <Link to="/kuro">
-                <img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/kuro-${kuroColor}.webp`} width={60} alt="kuro" loading="lazy" />
+                <img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/kuro-${kuroColor}.webp`} width={60} alt="kuro" loading="lazy" style={{borderRadius: "10px"}} />
               </Link>
               <Link to="/meiko">
-                <img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/meiko-${meikoColor}.webp`} width={60} alt="meiko" loading="lazy" />
+                <img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/meiko-${meikoColor}.webp`} width={60} alt="meiko" loading="lazy" style={{borderRadius: "10px"}} />
               </Link>
             </div>
           </div>
