@@ -243,6 +243,11 @@ textarea::placeholder {
     margin-right: 10px;
 }
 
+.background-loja {
+    height: 100vh;
+    background-image: url('https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-aurostars.webp');
+}
+
 @keyframes cardHover {
     0% {
         opacity: 1
