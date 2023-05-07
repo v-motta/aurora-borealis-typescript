@@ -246,6 +246,8 @@ textarea::placeholder {
 .background-loja {
     height: 100vh;
     background-image: url('https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-aurostars.webp');
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 @keyframes cardHover {
