@@ -10,6 +10,7 @@ import Venith from "../pages/aurostars/Venith";
 import Yukime from "../pages/aurostars/Yukime";
 import Contact from "../pages/Contact";
 import Lovestruck from "../pages/Lovestruck";
+import Loja from "../pages/Loja";
 
 const Router = () => {
   return (
@@ -20,6 +21,7 @@ const Router = () => {
         <Route path="/lovestruck" element={<Lovestruck />} />
         <Route path="/aurostars" element={<Aurostars />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/loja" element={<Loja />} />
         {/* aurostars routes */}
         <Route path="/mikorin" element={<Mikorin />} />
         <Route path="/yukime" element={<Yukime />} />
