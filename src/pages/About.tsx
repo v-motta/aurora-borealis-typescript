@@ -63,14 +63,14 @@ const About = () => {
           </div>
           <div className="director d-flex flex-column align-items-center mb-4 mb-lg-0 mx-lg-5">
             <div className="round mb-4">
-              <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/directors/takahashi.webp" alt="Gabriel Tanke" className="w-100" />
+              <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/directors/tanke.webp" alt="Gabriel Tanke" className="w-100" />
             </div>
             <h1 className="fw-bold fs-3">Gabriel Tanke</h1>
             <span className="fst-italic">Cofundador & Diretor de Tecnologia</span>
           </div>
           <div className="director d-flex flex-column align-items-center ms-lg-5">
             <div className="round mb-4">
-              <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/directors/tanke.webp" alt="Leticia Takahashi" className="w-100" />
+              <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/directors/takahashi.webp" alt="Leticia Takahashi" className="w-100" />
             </div>
             <h1 className="fw-bold fs-3">Leticia Takahashi</h1>
             <span className="fst-italic">Cofundadora & Diretora de Arte</span>
