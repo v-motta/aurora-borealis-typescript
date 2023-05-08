@@ -36,13 +36,11 @@ const About = () => {
       <div className="about-text gray-bg text-white text-center px-4 py-5 d-lg-flex flex-lg-column justify-content-lg-center">
         <h1 className="fw-semibold">Sobre nós</h1>
         <p>
-          A <span className="fst-italic">Aurora Borealis Studio</span> é uma <span className="fst-italic">startup</span> criativa de produtos, especializando-se no estilo visual em <span>anime</span>.
-          Baseada no Brasil, nosso foco é a criação de jogos digitais e conteúdo para a internet. Estamos sempre aprendendo e estudando o mercado, visando evoluir e achar um lugar onde possamos
-          brilhar.
+          A <span className="fst-italic">Aurora Borealis Studio</span> é uma <span className="fst-italic">startup</span> criativa de produtos no estilo anime. Baseada no Brasil, nosso foco é a criação de jogos digitais e conteúdo VTuber.
         </p>
         <p>
-          A ideia da <span className="fst-italic">Aurora Borealis</span> surgiu em 2019, vindo de um grupo de amigos que queriam expor sua paixão: fazer jogos. Participamos de diversas{" "}
-          <span>Game Jams</span>, sempre tentando adquirir experiência onde houveram oportunidades, a fim de trabalhar como um time para produzirmos nossos próprios produtos.
+          A ideia da <span className="fst-italic">Aurora Borealis</span> surgiu em 2019, vindo de um grupo de amigos que queriam expor sua paixão: fazer jogos. 
+          Participamos de diversas <span>Game Jams</span>, sempre tentando adquirir experiência onde houveram oportunidades, a fim de trabalhar como um time para produzirmos nossos próprios produtos.
         </p>
         <h1 className="fw-semibold mt-5">Direção da empresa</h1>
         <p>
