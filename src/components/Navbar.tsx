@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -28,9 +27,9 @@ const Navbar = () => {
             <NavLink className="nav-link mx-4" to="/aurostars">
               Aurostars
             </NavLink>
-            <Link to="/loja" className="nav-link mx-4" target="_blank" rel="noreferrer">
+            <a href="https://loja.aurorabgs.com/pt-br/" className="nav-link mx-4" target="_blank" rel="noreferrer">
               Loja
-            </Link>
+            </a>
             <NavLink className="nav-link mx-4" to="/lovestruck">
               Lovestruck
             </NavLink>

@@ -14,6 +14,7 @@ const Venith = () => {
       gender="female"
       channelId="UCqqYCfixhEcGzlV3uezcc4w"
       followers="1.1k+"
+      linkLojaAurostar="https://loja.aurorabgs.com/pt-br/?s=venith&mfn_livesearch"
     />
   );
 };

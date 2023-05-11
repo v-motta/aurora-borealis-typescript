@@ -3,6 +3,7 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import SubscriberCount from "./SubscriberCount";
 import { Link, useLocation } from "react-router-dom";
+import LojaAurostar from "./LojaAurostar";
 
 interface PageAurostarProps {
   img: string;
@@ -15,9 +16,10 @@ interface PageAurostarProps {
   gender: string;
   channelId: string;
   followers: string;
+  linkLojaAurostar: string;
 }
 
-const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, linkYoutube, gender, channelId, followers }: PageAurostarProps) => {
+const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, linkYoutube, gender, channelId, followers, linkLojaAurostar }: PageAurostarProps) => {
   const [mikorinColor, setMikorinColor] = useState("gray");
   const [yukimeColor, setYukimeColor] = useState("gray");
   const [venithColor, setVenithColor] = useState("gray");
@@ -71,6 +73,7 @@ const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, 
               <p className="text-white mt-2">Navegue entre as estrelas</p>
             </div>
           </div>
+            <LojaAurostar aurostar={aurostar} linkLojaAurostar={linkLojaAurostar} />
         <div className="row flex-column flex-lg-row justify-content-center align-items-center w-100 m-0">
           <div className="col-12 col-lg-5">
             <img src={img} alt={aurostar} className="w-100" loading="lazy" />

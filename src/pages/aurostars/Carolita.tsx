@@ -14,6 +14,7 @@ const Carolita = () => {
       gender="female"
       channelId="UCTOlA909tAlU3hKBVOqnuew"
       followers="1.5k+"
+      linkLojaAurostar="https://loja.aurorabgs.com/pt-br/?s=carolita&mfn_livesearch"
     />
   );
 };
