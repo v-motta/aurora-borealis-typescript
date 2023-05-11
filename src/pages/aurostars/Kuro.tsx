@@ -14,6 +14,7 @@ const Kuro = () => {
       gender="male"
       channelId="UCTttsxJjs1TCGNne921RoiA"
       followers="200+"
+      linkLojaAurostar="https://loja.aurorabgs.com/pt-br/?s=kuro&mfn_livesearch"
     />
   );
 };
