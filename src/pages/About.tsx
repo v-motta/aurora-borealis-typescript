@@ -77,6 +77,14 @@ const About = () => {
 
       <CarouselMeowchSection />
 
+      <div className="partners gray-bg text-white text-center px-4 py-5 d-lg-flex flex-lg-column justify-content-lg-center">
+        <h1 className="fw-semibold mb-5">Parceiros</h1>
+        <div className="d-flex justify-content-center">
+          <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/partners/trust.webp" alt="Trust Rise" width="10%" className="me-5" />
+          <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/partners/rocket.webp" alt="Rocket Design" width="10%" />
+        </div>
+      </div>
+
       <Footer />
     </>
   );
