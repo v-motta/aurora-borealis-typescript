@@ -79,9 +79,13 @@ const About = () => {
 
       <div className="partners gray-bg text-white text-center px-4 py-5 d-lg-flex flex-lg-column justify-content-lg-center">
         <h1 className="fw-semibold mb-5">Parceiros</h1>
-        <div className="d-flex justify-content-center">
-          <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/partners/trust.webp" alt="Trust Rise" width="10%" className="me-5" />
-          <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/partners/rocket.webp" alt="Rocket Design" width="10%" />
+        <div className="d-flex flex-column flex-lg-row align-items-center justify-content-center">
+          <a href="https://instagram.com/trustandriseidiomas?igshid=MzRlODBiNWFlZA==" className="w-50 mb-5 mb-lg-0 me-lg-5" target="_blank" rel="noopener noreferrer">
+            <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/partners/trust.webp" alt="Trust Rise" className="w-100" />
+          </a>
+          <a href="https://wa.me/message/CZQAQUOH2BZ6M1" className="w-50" target="_blank" rel="noopener noreferrer">
+            <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/partners/rocket.webp" alt="Rocket Design" className="w-100" />
+          </a>
         </div>
       </div>
 
