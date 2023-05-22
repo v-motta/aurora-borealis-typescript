@@ -254,7 +254,7 @@ textarea::placeholder {
     0% {
         opacity: 1
     }
-
+    
     100% {
         opacity: 0.4
     }
@@ -264,7 +264,7 @@ textarea::placeholder {
     0% {
         opacity: 0.4
     }
-
+    
     100% {
         opacity: 1
     }
@@ -273,6 +273,10 @@ textarea::placeholder {
 @media (min-width: 900px) {
     #credit-logo {
         display: block !important;
+    }
+
+    .partners div a {
+        width: 10% !important;
     }
 }
 
