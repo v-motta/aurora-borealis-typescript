@@ -2,7 +2,7 @@ import React from "react";
 
 const CarouselMeowchSection = () => {
   return (
-    <div className="award gray-bg-2 text-white d-flex flex-column flex-lg-row justify-content-center p-5 d-lg-flex flex-lg-row align-items-lg-center">
+    <div className="award gray-bg text-white d-flex flex-column flex-lg-row justify-content-center p-5 d-lg-flex flex-lg-row align-items-lg-center">
       <div className="pe-lg-5 me-lg-5">
         <h1 className="pb-4 fw-semibold">Magalu Gamejam - 2° lugar &#x1F3C6;</h1>
         <h2 className="pb-2 fs-3">Big Festival - Agosto de 2022</h2>
