@@ -32,7 +32,7 @@ const About = () => {
         </button>
       </div>
 
-      <div className="about-text gray-bg text-white text-center px-4 py-5 d-lg-flex flex-lg-column justify-content-lg-center">
+      <div className="about-text gray-bg-2 text-white text-center px-4 py-5 d-lg-flex flex-lg-column justify-content-lg-center">
         <h1 className="fw-semibold">Sobre nós</h1>
         <p>
           A <span className="fst-italic">Aurora Borealis Studio</span> é uma <span className="fst-italic">startup</span> criativa de produtos no estilo anime. Baseada no Brasil, nosso foco é a criação de jogos digitais e conteúdo VTuber.
@@ -77,7 +77,7 @@ const About = () => {
 
       <CarouselMeowchSection />
 
-      <div className="partners gray-bg text-white text-center px-4 py-5 d-lg-flex flex-lg-column justify-content-lg-center">
+      <div className="partners gray-bg-2 text-white text-center px-4 py-5 d-lg-flex flex-lg-column justify-content-lg-center">
         <h1 className="fw-semibold mb-5">Parceiros</h1>
         <div className="d-flex flex-column flex-lg-row align-items-center justify-content-center">
           <a href="https://instagram.com/trustandriseidiomas?igshid=MzRlODBiNWFlZA==" className="w-50 mb-5 mb-lg-0 me-lg-5" target="_blank" rel="noopener noreferrer">
