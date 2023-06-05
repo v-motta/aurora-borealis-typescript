@@ -13,7 +13,7 @@ const Mikorin = () => {
       linkYoutube="https://www.youtube.com/@MikorinAS"
       gender="female"
       channelId="UCCtuIp_tPICg8OC4l9l2QQw"
-      followers="1.5k+"
+      followers="1.6k+"
       linkLojaAurostar="https://loja.aurorabgs.com/pt-br/?s=mikorin&mfn_livesearch"
     />
   );
