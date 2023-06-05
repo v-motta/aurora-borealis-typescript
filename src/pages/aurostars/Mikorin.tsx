@@ -14,7 +14,7 @@ const Mikorin = () => {
       gender="female"
       channelId="UCCtuIp_tPICg8OC4l9l2QQw"
       followers="1.6k+"
-      linkLojaAurostar="https://loja.aurorabgs.com/pt-br/?s=mikorin&mfn_livesearch"
+      linkLojaAurostar="https://loja.aurorabgs.com/mikorin/"
     />
   );
 };
