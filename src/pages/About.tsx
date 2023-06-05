@@ -52,23 +52,23 @@ const About = () => {
 
         <div className="directors d-flex flex-column flex-lg-row justify-content-center mt-5">
           <div className="director d-flex flex-column align-items-center mb-4 mb-lg-0 me-lg-5">
-            <div className="round mb-4">
+            <a href="https://twitter.com/MinuettoMinore" className="mb-5 mb-lg-4 round" target="_blank" rel="noopener noreferrer">
               <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/directors/gobbo.webp" alt="Caik José Gobbo" className="w-100" />
-            </div>
+            </a>
             <h1 className="fw-bold fs-3">Caik Jose Gobbo</h1>
             <span className="fst-italic">Cofundador & Presidente</span>
           </div>
           <div className="director d-flex flex-column align-items-center mb-4 mb-lg-0 mx-lg-5">
-            <div className="round mb-4">
+            <a href="https://twitter.com/TankeGabriel" className="mb-5 mb-lg-4 round" target="_blank" rel="noopener noreferrer">
               <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/directors/tanke.webp" alt="Gabriel Tanke" className="w-100" />
-            </div>
+            </a>
             <h1 className="fw-bold fs-3">Gabriel Tanke</h1>
             <span className="fst-italic">Cofundador & Diretor de Tecnologia</span>
           </div>
           <div className="director d-flex flex-column align-items-center ms-lg-5">
-            <div className="round mb-4">
+            <a href="https://twitter.com/nyutamoto" className="mb-5 mb-lg-4 round" target="_blank" rel="noopener noreferrer">
               <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/directors/takahashi.webp" alt="Leticia Takahashi" className="w-100" />
-            </div>
+            </a>
             <h1 className="fw-bold fs-3">Leticia Takahashi</h1>
             <span className="fst-italic">Cofundadora & Diretora de Arte</span>
           </div>
