@@ -53,6 +53,7 @@ body {
     overflow: hidden;
     height: 150px;
     width: 150px;
+    transition: transform .2s;
 }
 
 .button-meowch {
@@ -277,6 +278,11 @@ textarea::placeholder {
 
     .partners div a {
         width: 10% !important;
+        transition: transform .2s;
+    }
+
+    .partners div a:hover, .director a:hover {
+        transform: scale(1.2);
     }
 }
 
