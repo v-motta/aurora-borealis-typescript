@@ -25,14 +25,14 @@ const Aurostars = () => {
         <div className="d-flex justify-content-center align-items-center w-100 p-5">
           <div className="d-flex flex-column flex-sm-row">
             <div className="d-flex flex-column flex-xl-row">
-              <RevealCard aurostar="mikorin" />
               <RevealCard aurostar="yukime" />
               <RevealCard aurostar="venith" />
+              <RevealCard aurostar="carolita" />
             </div>
             <div className="d-flex flex-column flex-xl-row">
-              <RevealCard aurostar="carolita" />
               <RevealCard aurostar="kuro" />
               <RevealCard aurostar="meiko" />
+              <DefaultCard />
             </div>
           </div>
           <div className="d-none d-xxxl-flex">

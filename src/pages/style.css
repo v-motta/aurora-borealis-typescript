@@ -107,7 +107,7 @@ textarea::placeholder {
     background-color: #ffbe7c;
 }
 
-.aurostars-mikorin, .aurostars-yukime, .aurostars-venith, .aurostars-carolita, .aurostars-kuro, .aurostars-meiko, .aurostars-default, .bg-card-aurostars {
+.aurostars-yukime, .aurostars-venith, .aurostars-carolita, .aurostars-kuro, .aurostars-meiko, .aurostars-default, .bg-card-aurostars {
     width: 170px;
     height: 711px;
     clip-path: polygon(50% 0, 100% 7%, 100% 93%, 50% 100%, 0 93%, 0 7%);
@@ -146,12 +146,6 @@ textarea::placeholder {
     left: 42%;
 }
 
-.bg-screen-mikorin {
-    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-mikorin.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 .bg-screen-yukime {
     background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-yukime.webp");
     background-size: cover;
@@ -180,12 +174,6 @@ textarea::placeholder {
     background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-meiko.webp");
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.aurostars-mikorin {
-    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/mikorin-white.webp");
-    background-size: 480%;
-    background-position: 46%;
 }
 
 .aurostars-yukime {
