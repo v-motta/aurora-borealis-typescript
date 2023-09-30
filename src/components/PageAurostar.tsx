@@ -20,7 +20,6 @@ interface PageAurostarProps {
 }
 
 const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, linkYoutube, gender, channelId, followers, linkLojaAurostar }: PageAurostarProps) => {
-  const [mikorinColor, setMikorinColor] = useState("gray");
   const [yukimeColor, setYukimeColor] = useState("gray");
   const [venithColor, setVenithColor] = useState("gray");
   const [carolitaColor, setCarolitaColor] = useState("gray");
@@ -29,9 +28,7 @@ const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, 
   const location = useLocation();
 
   useEffect(() => {
-    if (location.pathname === "/mikorin") {
-      setMikorinColor("color");
-    } else if (location.pathname === "/yukime") {
+    if (location.pathname === "/yukime") {
       setYukimeColor("color");
     } else if (location.pathname === "/venith") {
       setVenithColor("color");
@@ -50,9 +47,6 @@ const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, 
       <div className={`bg-screen-${bgName} container-fluid w-100 p-5 position-relative`}>
           <div className="aurostars-portrait d-flex flex-column justify-content-end align-items-center position-absolute top-0 end-0 mt-3">
             <div>
-            <Link to="/mikorin">
-              <img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/mikorin-${mikorinColor}.webp`} width={60} alt="mikorin" loading="lazy" style={{borderRadius: "50px"}} />
-            </Link>
             <Link to="/yukime">
               <img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/yukime-${yukimeColor}.webp`} width={60} alt="yukime" loading="lazy" style={{borderRadius: "50px"}} />
             </Link>

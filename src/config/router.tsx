@@ -5,7 +5,6 @@ import Aurostars from "../pages/Aurostars";
 import Carolita from "../pages/aurostars/Carolita";
 import Kuro from "../pages/aurostars/Kuro";
 import Meiko from "../pages/aurostars/Meiko";
-import Mikorin from "../pages/aurostars/Mikorin";
 import Venith from "../pages/aurostars/Venith";
 import Yukime from "../pages/aurostars/Yukime";
 import Contact from "../pages/Contact";
@@ -23,7 +22,6 @@ const Router = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/loja" element={<Loja />} />
         {/* aurostars routes */}
-        <Route path="/mikorin" element={<Mikorin />} />
         <Route path="/yukime" element={<Yukime />} />
         <Route path="/venith" element={<Venith />} />
         <Route path="/carolita" element={<Carolita />} />
