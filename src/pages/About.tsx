@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <a href="https://loja.aurorabgs.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://loja.aurorabstudios.com/" target="_blank" rel="noopener noreferrer">
               <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/slide/slide1.webp" className="d-block w-100" alt="slide 1" loading="lazy" />
             </a>
           </div> 

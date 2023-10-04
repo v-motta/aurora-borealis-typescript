@@ -27,7 +27,7 @@ const Navbar = () => {
             <NavLink className="nav-link mx-4" to="/aurostars">
               Aurostars
             </NavLink>
-            <a href="https://loja.aurorabgs.com/" className="nav-link mx-4" target="_blank" rel="noreferrer">
+            <a href="https://loja.aurorabstudios.com/" className="nav-link mx-4" target="_blank" rel="noreferrer">
               Loja
             </a>
             <NavLink className="nav-link mx-4" to="/lovestruck">
