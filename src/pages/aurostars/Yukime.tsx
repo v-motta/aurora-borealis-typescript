@@ -14,7 +14,7 @@ const Yukime = () => {
       gender="female"
       channelId="UCAsGSw_t9wMu8JWRwMG7lFQ"
       followers="600+"
-      linkLojaAurostar="https://loja.aurorabgs.com/yukime/"
+      linkLojaAurostar="https://loja.aurorabstudios.com/yukime/"
     />
   );
 };

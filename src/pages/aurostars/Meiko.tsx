@@ -14,7 +14,7 @@ const Meiko = () => {
       gender="male"
       channelId="UCaPMcrMN_1aRkKGsxVuh0pA"
       followers="600+"
-      linkLojaAurostar="https://loja.aurorabgs.com/meiko/"
+      linkLojaAurostar="https://loja.aurorabstudios.com/meiko/"
     />
   );
 };
