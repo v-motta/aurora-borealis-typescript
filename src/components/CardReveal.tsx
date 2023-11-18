@@ -23,7 +23,6 @@ const RevealCard = ({ aurostar }: RevealCardProps) => {
 
   const whichStar = () => {
     if (aurostar === "yukime") return "https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/default-card/star-yukime.webp";
-    if (aurostar === "venith") return "https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/default-card/star-venith.webp";
     if (aurostar === "carolita") return "https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/default-card/star-carolita.webp";
     if (aurostar === "kuro") return "https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/default-card/star-kuro.webp";
     if (aurostar === "meiko") return "https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/default-card/star-meiko.webp";

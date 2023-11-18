@@ -107,7 +107,7 @@ textarea::placeholder {
     background-color: #ffbe7c;
 }
 
-.aurostars-yukime, .aurostars-venith, .aurostars-carolita, .aurostars-kuro, .aurostars-meiko, .aurostars-default, .bg-card-aurostars {
+.aurostars-yukime, .aurostars-carolita, .aurostars-kuro, .aurostars-meiko, .aurostars-default, .bg-card-aurostars {
     width: 170px;
     height: 711px;
     clip-path: polygon(50% 0, 100% 7%, 100% 93%, 50% 100%, 0 93%, 0 7%);
@@ -152,12 +152,6 @@ textarea::placeholder {
     background-repeat: no-repeat;
 }
 
-.bg-screen-venith {
-    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-venith.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 .bg-screen-carolita {
     background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-carolita.webp");
     background-size: cover;
@@ -180,12 +174,6 @@ textarea::placeholder {
     background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/yukime-white.webp");
     background-size: 690%;
     background-position: 60% 25%;
-}
-
-.aurostars-venith {
-    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/venith-white.webp");
-    background-size: 670%;
-    background-position: 52% 22%;
 }
 
 .aurostars-carolita {

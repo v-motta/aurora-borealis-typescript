@@ -21,7 +21,6 @@ interface PageAurostarProps {
 
 const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, linkYoutube, gender, channelId, followers, linkLojaAurostar }: PageAurostarProps) => {
   const [yukimeColor, setYukimeColor] = useState("gray");
-  const [venithColor, setVenithColor] = useState("gray");
   const [carolitaColor, setCarolitaColor] = useState("gray");
   const [kuroColor, setKuroColor] = useState("gray");
   const [meikoColor, setMeikoColor] = useState("gray");
@@ -30,8 +29,6 @@ const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, 
   useEffect(() => {
     if (location.pathname === "/yukime") {
       setYukimeColor("color");
-    } else if (location.pathname === "/venith") {
-      setVenithColor("color");
     } else if (location.pathname === "/carolita") {
       setCarolitaColor("color");
     } else if (location.pathname === "/kuro") {
@@ -49,9 +46,6 @@ const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, 
             <div>
             <Link to="/yukime">
               <img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/yukime-${yukimeColor}.webp`} width={60} alt="yukime" loading="lazy" style={{borderRadius: "50px"}} />
-            </Link>
-            <Link to="/venith">
-              <img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/venith-${venithColor}.webp`} width={60} alt="venith" loading="lazy" style={{borderRadius: "50px"}} />
             </Link>
             <Link to="/carolita">
               <img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/carolita-${carolitaColor}.webp`} width={60} alt="carolita" loading="lazy" style={{borderRadius: "50px"}} />
