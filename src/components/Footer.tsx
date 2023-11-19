@@ -7,7 +7,7 @@ const Footer = () => {
         <span className="fs-5 fst-italic">&#x00A9; Aurora Borealis 2019 - 2023</span>
       </div>
       <div className="d-flex flex-column flex-lg-row align-items-center">
-        <span className="me-lg-4 mb-3 mb-lg-0 fs-6">contato@aurorabgs.com</span>
+        <span className="me-lg-4 mb-3 mb-lg-0 fs-6">contato@aurorabstudios.com</span>
         <div className="social-medias d-flex align-items-center fs-5">
           <a className="text-white" href="https://twitter.com/aurorabgs" aria-label="Twitter da Aurora Borealis" target="_blank" rel="noopener noreferrer">
             <i className="bi bi-twitter m-2"></i>

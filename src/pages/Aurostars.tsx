@@ -2,10 +2,12 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import RevealCard from "../components/CardReveal";
-import DefaultCard from "../components/DefaultCard";
 import { Link } from "react-router-dom";
+import DefaultCard from "../components/DefaultCard";
+
 
 const Aurostars = () => {
+
 	return (
 		<>
 			<Navbar />
@@ -23,22 +25,22 @@ const Aurostars = () => {
 			</div>
 
 			<div className="jesse-torajo d-flex">
-				<Link to="/torajo" className="torajo">
-					<div className={`flag-aurostar-1 position-absolute z-3 top-100`}>
+				<Link to="/torajo" className="torajo position-relative">
+					<div className={`flag-aurostar-1 position-absolute z-3`}>
 						<div className={`flag-aurostar-2 position-absolute`}>
 							<h1 className="text-white text-capitalize fs-5 z-3 position-absolute translate-middle-x fw-bold mb-0">Torajo</h1>
 						</div>
 					</div>
-					<img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/torajo-home.webp" alt="" width="100%" />
+					<img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/torajo-home.webp" alt="" width="100%" className="invisible" />
 				</Link>
 
-				<Link to="/jesse" className="jesse">
-					<div className={`flag-aurostar-1 position-absolute z-3 top-100`}>
+				<Link to="/jesse" className="jesse position-relative ">
+					<div className={`flag-aurostar-1 position-absolute z-3`}>
 						<div className={`flag-aurostar-2 position-absolute`}>
 							<h1 className="text-white text-capitalize fs-5 z-3 position-absolute translate-middle-x fw-bold mb-0">Jesse</h1>
 						</div>
 					</div>
-					<img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/jesse-home.webp" alt="" width="100%" />
+					<img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/jesse-home.webp" alt="" width="100%" className="invisible" />
 				</Link>
 			</div>
 
@@ -73,6 +75,8 @@ const Aurostars = () => {
 					</h1>
 				</div>
 			</div>
+			<img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-aurostars-2.webp" alt="" width="100%" loading="lazy" />
+
 
 			<Footer />
 		</>

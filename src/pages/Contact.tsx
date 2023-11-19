@@ -107,7 +107,7 @@ const Contact = () => {
                 </label>
                 <input
                   type="email"
-                  placeholder="Exemplo: contato@aurorabgs.com"
+                  placeholder="Exemplo: contato@aurorabstudios.com"
                   className="form-control gray-bg-2 text-white"
                   id="exampleInputEmail"
                   {...register("email", { required: true, minLength: 10, maxLength: 50, onChange: handleEmail })}

@@ -1,338 +1,409 @@
 @font-face {
-    font-family: 'IBM Plex Sans';
-    src: local('IBM Plex Sans'), url(../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf) format('truetype');
+	font-family: "IBM Plex Sans";
+	src: local("IBM Plex Sans"), url(../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: 'IBM Plex Sans';
-    src: local('IBM Plex Sans'), url(../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Bold.ttf) format('truetype');
-    font-weight: 700;
+	font-family: "IBM Plex Sans";
+	src: local("IBM Plex Sans"), url(../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Bold.ttf) format("truetype");
+	font-weight: 700;
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    src: local('Montserrat'), url(../assets/fonts/Montserrat/static/Montserrat-Regular.ttf) format('truetype');
+	font-family: "Montserrat";
+	src: local("Montserrat"), url(../assets/fonts/Montserrat/static/Montserrat-Regular.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    src: local('Montserrat'), url(../assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf) format('truetype');
-    font-weight: 600;
+	font-family: "Montserrat";
+	src: local("Montserrat"), url(../assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf) format("truetype");
+	font-weight: 600;
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    src: local('Montserrat'), url(../assets/fonts/Montserrat/static/Montserrat-Bold.ttf) format('truetype');
-    font-weight: 700;
+	font-family: "Montserrat";
+	src: local("Montserrat"), url(../assets/fonts/Montserrat/static/Montserrat-Bold.ttf) format("truetype");
+	font-weight: 700;
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    src: local('Montserrat'), url(../assets/fonts/Montserrat/static/Montserrat-ExtraBold.ttf) format('truetype');
-    font-weight: 900;
+	font-family: "Montserrat";
+	src: local("Montserrat"), url(../assets/fonts/Montserrat/static/Montserrat-ExtraBold.ttf) format("truetype");
+	font-weight: 900;
 }
 
 body {
-    font-family: 'IBM Plex Sans', sans-serif;
+	font-family: "IBM Plex Sans", sans-serif;
 }
 
 .gray-bg {
-    background-color: #2D2D2D;
+	background-color: #2d2d2d;
 }
 
 .gray-bg-2 {
-    background-color: #3d3d3d;
+	background-color: #3d3d3d;
 }
 
-.about-text h1, .award div h1, .aurostars h1, .contact h1, .lovestruck h1, .partners h1, #credit-aurostar, .text-hover {
-    font-family: 'Montserrat', sans-serif;
+.about-text h1,
+.award div h1,
+.aurostars h1,
+.contact h1,
+.lovestruck h1,
+.partners h1,
+#credit-aurostar,
+.text-hover {
+	font-family: "Montserrat", sans-serif;
 }
 
 .directors .round {
-    border-radius: 100%;
-    overflow: hidden;
-    height: 150px;
-    width: 150px;
-    transition: transform .2s;
+	border-radius: 100%;
+	overflow: hidden;
+	height: 150px;
+	width: 150px;
+	transition: transform 0.2s;
 }
 
 .button-meowch {
-    border: 2px solid #fff;
-    border-radius: 13px;
-    color: #fff;
+	border: 2px solid #fff;
+	border-radius: 13px;
+	color: #fff;
 }
 
 .social-medias a:hover i {
-    color: #FFF;
+	color: #fff;
 }
 
 .form-select {
-    background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 14 14%27%3e%3cpath fill=%27none%27 stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27m2 5 6 6 6-6%27/%3e%3c/svg%3e")
+	background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 14 14%27%3e%3cpath fill=%27none%27 stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27m2 5 6 6 6-6%27/%3e%3c/svg%3e");
 }
 
 .form-control:focus {
-    background-color: #3d3d3d;
+	background-color: #3d3d3d;
 }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%28255, 255, 255, 0.40%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e");
+	background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%28255, 255, 255, 0.40%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e");
 }
 
 input::placeholder {
-    color: rgb(255, 255, 255, 20%) !important;
+	color: rgb(255, 255, 255, 20%) !important;
 }
 
 textarea::placeholder {
-    color: rgb(255, 255, 255, 20%) !important;
+	color: rgb(255, 255, 255, 20%) !important;
 }
 
 .bg-aurostars {
-    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-aurostars.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-aurostars.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .lock {
-    top: 80%;
+	top: 80%;
 }
 
 .inv-border {
-    height: 900px;
+	height: 900px;
 }
 
 .card-reveal {
-    width: 174px;
-    height: 715px;
-    clip-path: polygon(50% 0, 100% 7%, 100% 93%, 50% 100%, 0 93%, 0 7%);
-    background-color: #ffbe7c;
+	width: 174px;
+	height: 715px;
+	clip-path: polygon(50% 0, 100% 7%, 100% 93%, 50% 100%, 0 93%, 0 7%);
+	background-color: #ffbe7c;
 }
 
-.aurostars-yukime, .aurostars-carolita, .aurostars-kuro, .aurostars-meiko, .aurostars-purple, .aurostars-pardal, .aurostars-flora, .aurostars-default, .bg-card-aurostars {
-    width: 170px;
-    height: 711px;
-    clip-path: polygon(50% 0, 100% 7%, 100% 93%, 50% 100%, 0 93%, 0 7%);
-    top: 2px;
-    left: 2px;
-    bottom: 2px;
-    right: 2px;
-    background-repeat: no-repeat;
+.aurostars-yukime,
+.aurostars-carolita,
+.aurostars-kuro,
+.aurostars-meiko,
+.aurostars-purple,
+.aurostars-pardal,
+.aurostars-flora,
+.aurostars-default,
+.bg-card-aurostars {
+	width: 170px;
+	height: 711px;
+	clip-path: polygon(50% 0, 100% 7%, 100% 93%, 50% 100%, 0 93%, 0 7%);
+	top: 2px;
+	left: 2px;
+	bottom: 2px;
+	right: 2px;
+	background-repeat: no-repeat;
 }
 
 .bg-card-aurostars {
-    background-color: #020228 !important;
+	background-color: #020228 !important;
 }
 
-.flag-aurostar-1, .flag-aurostar-1, .flag-aurostar-1 {
-    width: 140px;
-    height: 80px;
-    top: 80%;
-    clip-path: polygon(0 20%, 100% 20%, 87% 40%, 100% 60%, 0 60%);
-    background-color: #ffbe7c;
+.flag-aurostar-1,
+.flag-aurostar-1,
+.flag-aurostar-1 {
+	width: 140px;
+	height: 80px;
+	top: 80%;
+	clip-path: polygon(0 20%, 100% 20%, 87% 40%, 100% 60%, 0 60%);
+	background-color: #ffbe7c;
 }
 
-.flag-aurostar-2, .flag-aurostar-2, .flag-aurostar-2 {
-    width: 136px;
-    height: 76px;
-    top: 2px;
-    left: 2px;
-    bottom: 2px;
-    right: 2px;
-    clip-path: polygon(0 20%, 100% 20%, 87% 40%, 100% 60%, 0 60%);
-    background-color: #3F2979;
+.top-105 {
+	top: 105%;
 }
 
-.flag-aurostar-2 h1, .flag-aurostar-2 h1, .flag-aurostar-2 h1 {
-    top: 23%;
-    left: 42%;
+.jesse {
+	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/jesse-home.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+	animation: shrink-and-grow 0.5s ease-in-out;
+}
+
+.torajo {
+	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/torajo-home.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+	animation: shrink-and-grow 0.5s ease-in-out;
+}
+
+@keyframes grow-and-shrink {
+	0% {
+		width: 50%;
+	}
+	100% {
+		width: 75%;
+	}
+}
+
+@keyframes shrink-and-grow {
+	0% {
+		width: 75%;
+	}
+	100% {
+		width: 50%;
+	}
+}
+
+.torajo:hover {
+	width: 75%;
+	animation: grow-and-shrink 0.5s ease-in-out;
+}
+
+.jesse:hover {
+	width: 75%;
+	animation: grow-and-shrink 0.5s ease-in-out;
+}
+
+.flag-aurostar-2,
+.flag-aurostar-2,
+.flag-aurostar-2 {
+	width: 136px;
+	height: 76px;
+	top: 2px;
+	left: 2px;
+	bottom: 2px;
+	right: 2px;
+	clip-path: polygon(0 20%, 100% 20%, 87% 40%, 100% 60%, 0 60%);
+	background-color: #3f2979;
+}
+
+.flag-aurostar-2 h1,
+.flag-aurostar-2 h1,
+.flag-aurostar-2 h1 {
+	top: 23%;
+	left: 42%;
 }
 
 .bg-screen-yukime {
-    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-yukime.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
+	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-yukime.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .bg-screen-carolita {
-    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-carolita.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
+	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-carolita.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .bg-screen-kuro {
-    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-kuro.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
+	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-kuro.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .bg-screen-meiko {
-    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-meiko.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
+	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-meiko.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .bg-screen-purple {
-    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-purple.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
+	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-purple.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .bg-screen-pardal {
-    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-pardal.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
+	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-pardal.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .bg-screen-flora {
-    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-flora.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
+	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-flora.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .bg-screen-torajo {
-    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-torajo.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
+	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-torajo.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .bg-screen-jesse {
-    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-jesse.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    display: flex;
+	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-jesse.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	display: flex;
 }
 
 .aurostars-yukime {
-    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/yukime-white.webp");
-    background-size: 605%;
-    background-position: 60% 27%;
+	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/yukime-white.webp");
+	background-size: 605%;
+	background-position: 60% 27%;
 }
 
 .aurostars-carolita {
-    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/carolita-white.webp");
-    background-size: 440%;
-    background-position: 52% 77%;
+	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/carolita-white.webp");
+	background-size: 440%;
+	background-position: 52% 77%;
 }
 
 .aurostars-kuro {
-    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/kuro-white.webp");
-    background-size: 700%;
-    background-position: 49% 58%;
+	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/kuro-white.webp");
+	background-size: 700%;
+	background-position: 49% 58%;
 }
 
 .aurostars-meiko {
-    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/meiko-white.webp");
-    background-size: 320%;
-    background-position: 50% 74%;
+	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/meiko-white.webp");
+	background-size: 320%;
+	background-position: 50% 74%;
 }
 
 .aurostars-purple {
-    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/purple-white.webp");
-    background-size: 400%;
-    background-position: 54% 23%;
+	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/purple-white.webp");
+	background-size: 400%;
+	background-position: 54% 23%;
 }
 
 .aurostars-pardal {
-    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/pardal-white.webp");
-    background-size: 397%;
-    background-position: 29% 38%;
+	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/pardal-white.webp");
+	background-size: 397%;
+	background-position: 29% 38%;
 }
 
 .aurostars-flora {
-    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/flora-white.webp");
-    background-size: 570%;
-    background-position: 47% 27%;
+	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/flora-white.webp");
+	background-size: 570%;
+	background-position: 47% 27%;
 }
 
 .aurostars-default {
-    background-color: #020228 !important;
+	background-color: #020228 !important;
 }
 
 .opacity-4 {
-    animation: cardHover 1s ease-in-out;
-    opacity: 0.4;
+	animation: cardHover 1s ease-in-out;
+	opacity: 0.4;
 }
 
 .hoverOut {
-    animation: cardHoverOut 0.7s ease-in-out;
+	animation: cardHoverOut 0.7s ease-in-out;
 }
 
 .title-hover {
-    display: none;
+	display: none;
 }
 
 #credit-logo {
-    display: none;
+	display: none;
 }
 
 .aurostars-portrait a {
-    margin-left: 10px;
-    margin-right: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .background-loja {
-    height: 100vh;
-    background-image: url('https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-aurostars.webp');
-    background-repeat: repeat;
-    background-size: cover;
+	height: 100vh;
+	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-aurostars.webp");
+	background-repeat: repeat;
+	background-size: cover;
 }
 
 @keyframes cardHover {
-    0% {
-        opacity: 1
-    }
-    
-    100% {
-        opacity: 0.4
-    }
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0.4;
+	}
 }
 
 @keyframes cardHoverOut {
-    0% {
-        opacity: 0.4
-    }
-    
-    100% {
-        opacity: 1
-    }
+	0% {
+		opacity: 0.4;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
 
 @media (min-width: 900px) {
-    #credit-logo {
-        display: block !important;
-    }
+	#credit-logo {
+		display: block !important;
+	}
 
-    .partners div a {
-        width: 10% !important;
-        transition: transform .2s;
-    }
+	.partners div a {
+		width: 10% !important;
+		transition: transform 0.2s;
+	}
 
-    .partners div a:hover, .director a:hover {
-        transform: scale(1.2);
-    }
+	.partners div a:hover,
+	.director a:hover {
+		transform: scale(1.2);
+	}
 }
 
 @media (min-width: 991.98px) {
-    .about-text {
-        padding: 3rem 22% !important;
-    }
+	.about-text {
+		padding: 3rem 22% !important;
+	}
 
-    .faq {
-        padding: 0 13rem;
-    }
-    
-    .lovestruck img {
-        width: 25% !important;
-    }
+	.faq {
+		padding: 0 13rem;
+	}
 
-    .aurostars img {
-        width: 30% !important;
-    }
+	.lovestruck img {
+		width: 25% !important;
+	}
+
+	.aurostars img {
+		width: 30% !important;
+	}
 }
 
-
 @media (min-width: 1750px) {
-    .d-xxxl-flex {
-        display: flex !important;
-    }
+	.d-xxxl-flex {
+		display: flex !important;
+	}
 }
