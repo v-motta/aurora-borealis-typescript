@@ -107,7 +107,7 @@ textarea::placeholder {
     background-color: #ffbe7c;
 }
 
-.aurostars-yukime, .aurostars-carolita, .aurostars-kuro, .aurostars-meiko, .aurostars-default, .bg-card-aurostars {
+.aurostars-yukime, .aurostars-carolita, .aurostars-kuro, .aurostars-meiko, .aurostars-purple, .aurostars-pardal, .aurostars-flora, .aurostars-default, .bg-card-aurostars {
     width: 170px;
     height: 711px;
     clip-path: polygon(50% 0, 100% 7%, 100% 93%, 50% 100%, 0 93%, 0 7%);
@@ -170,16 +170,48 @@ textarea::placeholder {
     background-repeat: no-repeat;
 }
 
+.bg-screen-purple {
+    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-purple.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-screen-pardal {
+    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-pardal.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-screen-flora {
+    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-flora.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-screen-torajo {
+    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-torajo.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-screen-jesse {
+    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-jesse.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+}
+
 .aurostars-yukime {
     background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/yukime-white.webp");
-    background-size: 690%;
-    background-position: 60% 25%;
+    background-size: 605%;
+    background-position: 60% 27%;
 }
 
 .aurostars-carolita {
     background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/carolita-white.webp");
-    background-size: 500%;
-    background-position: 52% 45%;
+    background-size: 440%;
+    background-position: 52% 77%;
 }
 
 .aurostars-kuro {
@@ -190,8 +222,26 @@ textarea::placeholder {
 
 .aurostars-meiko {
     background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/meiko-white.webp");
-    background-size: 350%;
-    background-position: 50% 70%;
+    background-size: 320%;
+    background-position: 50% 74%;
+}
+
+.aurostars-purple {
+    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/purple-white.webp");
+    background-size: 400%;
+    background-position: 54% 23%;
+}
+
+.aurostars-pardal {
+    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/pardal-white.webp");
+    background-size: 397%;
+    background-position: 29% 38%;
+}
+
+.aurostars-flora {
+    background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/flora-white.webp");
+    background-size: 570%;
+    background-position: 47% 27%;
 }
 
 .aurostars-default {

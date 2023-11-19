@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import RevealCard from "../components/CardReveal";
 import DefaultCard from "../components/DefaultCard";
+import { Link } from "react-router-dom";
 
 const Aurostars = () => {
 	return (
@@ -22,12 +23,23 @@ const Aurostars = () => {
 			</div>
 
 			<div className="jesse-torajo d-flex">
-				<div className="jesse">
-					<img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/jesse-transparent.webp" alt="" width="100%" />
-				</div>
-				<div className="torajo">
-					<img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/torajo-transparent.webp" alt="" width="100%" />
-				</div>
+				<Link to="/torajo" className="torajo">
+					<div className={`flag-aurostar-1 position-absolute z-3 top-100`}>
+						<div className={`flag-aurostar-2 position-absolute`}>
+							<h1 className="text-white text-capitalize fs-5 z-3 position-absolute translate-middle-x fw-bold mb-0">Torajo</h1>
+						</div>
+					</div>
+					<img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/torajo-home.webp" alt="" width="100%" />
+				</Link>
+
+				<Link to="/jesse" className="jesse">
+					<div className={`flag-aurostar-1 position-absolute z-3 top-100`}>
+						<div className={`flag-aurostar-2 position-absolute`}>
+							<h1 className="text-white text-capitalize fs-5 z-3 position-absolute translate-middle-x fw-bold mb-0">Jesse</h1>
+						</div>
+					</div>
+					<img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/jesse-home.webp" alt="" width="100%" />
+				</Link>
 			</div>
 
 			<div className="container-fluid bg-aurostars position-relative w-100 p-5 m-0">
@@ -40,12 +52,12 @@ const Aurostars = () => {
 						</div>
 						<div className="d-flex flex-column flex-xl-row">
 							<RevealCard aurostar="meiko" />
-							<DefaultCard />
-							<DefaultCard />
+							<RevealCard aurostar="purple" />
+							<RevealCard aurostar="pardal" />
 						</div>
 					</div>
 					<div className="d-none d-xxxl-flex">
-						<DefaultCard />
+						<RevealCard aurostar="flora" />
 						<DefaultCard />
 						<DefaultCard />
 					</div>
