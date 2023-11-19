@@ -12,9 +12,9 @@ const Flora = () => {
       linkTwitter="https://twitter.com/FloraSolEclair"
       linkYoutube="https://www.youtube.com/@FloraSolEclair"
       gender="female"
-      channelId="UCTOlA909tAlU3hKBVOqnuew"
+      channelId="UC_Zn1zfsztt6Vp5NdKJ10uw"
       followers="300+"
-      linkLojaAurostar="https://loja.aurorabstudios.com/carolita/"
+      linkLojaAurostar="https://loja.aurorabstudios.com/flora/"
     />
   );
 };
