@@ -5,11 +5,15 @@ import Aurostars from "../pages/Aurostars";
 import Carolita from "../pages/aurostars/Carolita";
 import Kuro from "../pages/aurostars/Kuro";
 import Meiko from "../pages/aurostars/Meiko";
-import Venith from "../pages/aurostars/Venith";
 import Yukime from "../pages/aurostars/Yukime";
 import Contact from "../pages/Contact";
 import Lovestruck from "../pages/Lovestruck";
 import Loja from "../pages/Loja";
+import Jesse from "../pages/aurostars/Jesse";
+import Torajo from "../pages/aurostars/Torajo";
+import Purple from "../pages/aurostars/Purple";
+import Pardal from "../pages/aurostars/Pardal";
+import Flora from "../pages/aurostars/Flora";
 
 const Router = () => {
   return (
@@ -23,10 +27,14 @@ const Router = () => {
         <Route path="/loja" element={<Loja />} />
         {/* aurostars routes */}
         <Route path="/yukime" element={<Yukime />} />
-        <Route path="/venith" element={<Venith />} />
         <Route path="/carolita" element={<Carolita />} />
         <Route path="/kuro" element={<Kuro />} />
         <Route path="/meiko" element={<Meiko />} />
+        <Route path="/purple" element={<Purple />} />
+        <Route path="/pardal" element={<Pardal />} />
+        <Route path="/flora" element={<Flora />} />
+        <Route path="/jesse" element={<Jesse />} />
+        <Route path="/torajo" element={<Torajo />} />
       </Routes>
     </BrowserRouter>
   );
