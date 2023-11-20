@@ -368,6 +368,12 @@ textarea::placeholder {
 	}
 }
 
+@media (max-width: 575.98px) {
+	.sm-invisible {
+		visibility: hidden;
+	}
+}
+
 @media (min-width: 900px) {
 	#credit-logo {
 		display: block !important;
@@ -399,6 +405,10 @@ textarea::placeholder {
 
 	.aurostars img {
 		width: 30% !important;
+	}
+
+	.w-lg-50 {
+		width: 50%;
 	}
 }
 
