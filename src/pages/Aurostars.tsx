@@ -24,7 +24,7 @@ const Aurostars = () => {
 			</div>
 
 			<div className="jesse-torajo d-flex flex-column flex-lg-row">
-				<Link to="/torajo" className="torajo position-relative w-100 w-lg-50">
+				<Link to="/torajo" className="torajo position-relative">
 					<div className="flag-aurostar-1 position-absolute z-3 sm-invisible">
 						<div className="flag-aurostar-2 position-absolute">
 							<h1 className="text-white text-capitalize fs-5 z-3 position-absolute translate-middle-x fw-bold mb-0">Torajo</h1>
@@ -33,7 +33,7 @@ const Aurostars = () => {
 					<img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/torajo-home.webp" alt="" width="100%" className="invisible" />
 				</Link>
 
-				<Link to="/jesse" className="jesse position-relative w-100 w-lg-50">
+				<Link to="/jesse" className="jesse position-relative">
 					<div className="flag-aurostar-1 position-absolute z-3 sm-invisible">
 						<div className="flag-aurostar-2 position-absolute">
 							<h1 className="text-white text-capitalize fs-5 z-3 position-absolute translate-middle-x fw-bold mb-0">Jesse</h1>
@@ -45,14 +45,14 @@ const Aurostars = () => {
 
 			<div className="container-fluid bg-aurostars position-relative w-100 p-5 m-0">
 				<div className="d-flex justify-content-center align-items-center w-100 p-5">
-					<div className="d-flex flex-column flex-sm-row">
+					<div className="d-flex flex-column flex-1330-row">
 						<div className="d-flex flex-column flex-xl-row">
 							<RevealCard aurostar="yukime" />
 							<RevealCard aurostar="carolita" />
 							<RevealCard aurostar="kuro" />
 							<RevealCard aurostar="meiko" />
 						</div>
-						<div className="d-flex flex-column flex-xl-row">
+						<div className="d-flex flex-column flex-xl-row justify-content-center">
 							<RevealCard aurostar="purple" />
 							<RevealCard aurostar="pardal" />
 							<RevealCard aurostar="flora" />
