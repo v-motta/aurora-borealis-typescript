@@ -8,7 +8,6 @@ import Meiko from "../pages/aurostars/Meiko";
 import Yukime from "../pages/aurostars/Yukime";
 import Contact from "../pages/Contact";
 import Lovestruck from "../pages/Lovestruck";
-import Loja from "../pages/Loja";
 import Jesse from "../pages/aurostars/Jesse";
 import Torajo from "../pages/aurostars/Torajo";
 import Purple from "../pages/aurostars/Purple";
@@ -24,7 +23,6 @@ const Router = () => {
         <Route path="/lovestruck" element={<Lovestruck />} />
         <Route path="/aurostars" element={<Aurostars />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/loja" element={<Loja />} />
         {/* aurostars routes */}
         <Route path="/yukime" element={<Yukime />} />
         <Route path="/carolita" element={<Carolita />} />
