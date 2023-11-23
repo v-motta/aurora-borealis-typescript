@@ -3,6 +3,15 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import CarouselMeowchSection from "../components/CarouselMeowchSection";
 
+import slide1 from "../assets/imgs/slide1.webp";
+import slide2 from "../assets/imgs/slide2.webp";
+import logoTrust from "../assets/imgs/logo-trust.webp";
+import logoRocket from "../assets/imgs/logo-trust.webp";
+import logoLunar from "../assets/imgs/logo-lunar.webp";
+import gobboPortrait from "../assets/imgs/logo-lunar.webp";
+import tankePortrait from "../assets/imgs/logo-lunar.webp";
+import takahashiPortrait from "../assets/imgs/logo-lunar.webp";
+
 const About = () => {
   return (
     <>
@@ -15,11 +24,11 @@ const About = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <a href="https://loja.aurorabstudios.com/" target="_blank" rel="noopener noreferrer">
-              <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/slide/slide1.webp" className="d-block w-100" alt="slide 1" loading="lazy" />
+              <img src={ slide1 } className="d-block w-100" alt="slide 1" loading="lazy" />
             </a>
           </div> 
           <div className="carousel-item">
-            <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/slide/slide2.webp" className="d-block w-100" alt="slide 2" loading="lazy" />
+            <img src={ slide2 } className="d-block w-100" alt="slide 2" loading="lazy" />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
@@ -53,21 +62,21 @@ const About = () => {
         <div className="directors d-flex flex-column flex-lg-row justify-content-center mt-5">
           <div className="director d-flex flex-column align-items-center mb-4 mb-lg-0 me-lg-5">
             <a href="https://twitter.com/MinuettoMinore" className="mb-5 mb-lg-4 round" target="_blank" rel="noopener noreferrer">
-              <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/directors/gobbo.webp" alt="Caik José Gobbo" className="w-100" />
+              <img src={ gobboPortrait } alt="Caik José Gobbo" className="w-100" />
             </a>
             <h1 className="fw-bold fs-3">Caik Jose Gobbo</h1>
             <span className="fst-italic">Cofundador & Presidente</span>
           </div>
           <div className="director d-flex flex-column align-items-center mb-4 mb-lg-0 mx-lg-5">
             <a href="https://twitter.com/TankeGabriel" className="mb-5 mb-lg-4 round" target="_blank" rel="noopener noreferrer">
-              <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/directors/tanke.webp" alt="Gabriel Tanke" className="w-100" />
+              <img src={ tankePortrait } alt="Gabriel Tanke" className="w-100" />
             </a>
             <h1 className="fw-bold fs-3">Gabriel Tanke</h1>
             <span className="fst-italic">Cofundador & Diretor de Tecnologia</span>
           </div>
           <div className="director d-flex flex-column align-items-center ms-lg-5">
             <a href="https://twitter.com/nyutamoto" className="mb-5 mb-lg-4 round" target="_blank" rel="noopener noreferrer">
-              <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/directors/takahashi.webp" alt="Leticia Takahashi" className="w-100" />
+              <img src={ takahashiPortrait } alt="Leticia Takahashi" className="w-100" />
             </a>
             <h1 className="fw-bold fs-3">Leticia Takahashi</h1>
             <span className="fst-italic">Cofundadora & Diretora de Arte</span>
@@ -81,13 +90,13 @@ const About = () => {
         <h1 className="fw-semibold mb-5">Parceiros</h1>
         <div className="d-flex flex-column flex-lg-row align-items-center justify-content-center">
           <a href="https://instagram.com/trustandriseidiomas?igshid=MzRlODBiNWFlZA==" className="w-50 mb-5 mb-lg-0 me-lg-5" target="_blank" rel="noopener noreferrer">
-            <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/partners/trust.webp" alt="Trust Rise" className="w-100" />
+            <img src={ logoTrust } alt="Trust Rise" className="w-100" />
           </a>
           <a href="https://wa.me/message/CZQAQUOH2BZ6M1" className="w-50 me-lg-5" target="_blank" rel="noopener noreferrer">
-            <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/partners/rocket.webp" alt="Rocket Design" className="w-100" />
+            <img src={ logoRocket } alt="Rocket Design" className="w-100" />
           </a>
           <a href="https://twitter.com/LunarStudioBR" className="w-50" target="_blank" rel="noopener noreferrer">
-            <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/partners/lunar.webp" alt="Lunar Studio" className="w-100" />
+            <img src={ logoLunar } alt="Lunar Studio" className="w-100" />
           </a>
         </div>
       </div>

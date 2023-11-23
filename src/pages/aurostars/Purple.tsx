@@ -1,11 +1,13 @@
 import React from "react";
 import PageAurostar from "../../components/PageAurostar";
 
+import purpleTransparent from "../../assets/imgs/purple-transparent.webp";
+
 const Purple = () => {
   return (
     <PageAurostar
       aurostar="Purple Moon"
-      img="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/purple-transparent.webp"
+      img={ purpleTransparent }
       bgName="purple"
       loreStart="Purple é uma elfa da lua, que veio à Terra com o objetivo de tornar o mundo um lugar melhor."
       loreEnd="Ela vem para as lives para alegrar as pessoas com sua personalidade divertida e extrovertida! Ela também encanta a todos com sua melodia e seu talento com a voz."

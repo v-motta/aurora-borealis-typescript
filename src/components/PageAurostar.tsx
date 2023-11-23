@@ -5,6 +5,36 @@ import SubscriberCount from "./SubscriberCount";
 import { Link, useLocation } from "react-router-dom";
 import LojaAurostar from "./LojaAurostar";
 
+import xLogo from "../assets/imgs/x.webp";
+import youtubeLogo from "../assets/imgs/youtube.webp";
+
+import torajoGrayPortrait from "../assets/imgs/torajo-gray.webp"
+import torajoColorPortrait from "../assets/imgs/torajo-color.webp"
+
+import jesseGrayPortrait from "../assets/imgs/jesse-gray.webp"
+import jesseColorPortrait from "../assets/imgs/jesse-color.webp"
+
+import yukimeGrayPortrait from "../assets/imgs/yukime-gray.webp"
+import yukimeColorPortrait from "../assets/imgs/yukime-color.webp"
+
+import carolitaGrayPortrait from "../assets/imgs/carolita-gray.webp"
+import carolitaColorPortrait from "../assets/imgs/carolita-color.webp"
+
+import kuroGrayPortrait from "../assets/imgs/kuro-gray.webp"
+import kuroColorPortrait from "../assets/imgs/kuro-color.webp"
+
+import meikoGrayPortrait from "../assets/imgs/meiko-gray.webp"
+import meikoColorPortrait from "../assets/imgs/meiko-color.webp"
+
+import purpleGrayPortrait from "../assets/imgs/purple-gray.webp"
+import purpleColorPortrait from "../assets/imgs/purple-color.webp"
+
+import pardalGrayPortrait from "../assets/imgs/pardal-gray.webp"
+import pardalColorPortrait from "../assets/imgs/pardal-color.webp"
+
+import floraGrayPortrait from "../assets/imgs/flora-gray.webp"
+import floraColorPortrait from "../assets/imgs/flora-color.webp"
+
 interface PageAurostarProps {
 	img: string;
 	bgName: string;
@@ -20,36 +50,36 @@ interface PageAurostarProps {
 }
 
 const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, linkYoutube, gender, channelId, followers, linkLojaAurostar }: PageAurostarProps) => {
-	const [torajoColor, setTorajoColor] = useState("gray");
-	const [jesseColor, setJesseColor] = useState("gray");
-	const [yukimeColor, setYukimeColor] = useState("gray");
-	const [carolitaColor, setCarolitaColor] = useState("gray");
-	const [kuroColor, setKuroColor] = useState("gray");
-	const [meikoColor, setMeikoColor] = useState("gray");
-	const [purpleColor, setPurpleColor] = useState("gray");
-	const [pardalColor, setPardalColor] = useState("gray");
-	const [floraColor, setFloraColor] = useState("gray");
+	const [torajoPortrait, setTorajoPortrait] = useState(torajoGrayPortrait);
+	const [jessePortrait, setJessePortrait] = useState(jesseGrayPortrait);
+	const [yukimePortrait, setYukimePortrait] = useState(yukimeGrayPortrait);
+	const [carolitaPortrait, setCarolitaPortrait] = useState(carolitaGrayPortrait);
+	const [kuroPortrait, setKuroPortrait] = useState(kuroGrayPortrait);
+	const [meikoPortrait, setMeikoPortrait] = useState(meikoGrayPortrait);
+	const [purplePortrait, setPurplePortrait] = useState(purpleGrayPortrait);
+	const [pardalPortrait, setPardalPortrait] = useState(pardalGrayPortrait);
+	const [floraPortrait, setFloraPortrait] = useState(floraGrayPortrait);
 	const location = useLocation();
 
 	useEffect(() => {
 		if (location.pathname === "/yukime") {
-			setYukimeColor("color");
+			setYukimePortrait(yukimeColorPortrait);
 		} else if (location.pathname === "/carolita") {
-			setCarolitaColor("color");
+			setCarolitaPortrait(carolitaColorPortrait);
 		} else if (location.pathname === "/kuro") {
-			setKuroColor("color");
+			setKuroPortrait(kuroColorPortrait);
 		} else if (location.pathname === "/meiko") {
-			setMeikoColor("color");
+			setMeikoPortrait(meikoColorPortrait);
 		} else if (location.pathname === "/purple") {
-			setPurpleColor("color");
+			setPurplePortrait(purpleColorPortrait);
 		} else if (location.pathname === "/pardal") {
-			setPardalColor("color");
+			setPardalPortrait(pardalColorPortrait);
 		} else if (location.pathname === "/flora") {
-			setFloraColor("color");
+			setFloraPortrait(floraColorPortrait);
 		} else if (location.pathname === "/torajo") {
-			setTorajoColor("color");
+			setTorajoPortrait(torajoColorPortrait);
 		} else if (location.pathname === "/jesse") {
-			setJesseColor("color");
+			setJessePortrait(jesseColorPortrait);
 		}
 	}, [location]);
 
@@ -60,31 +90,31 @@ const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, 
 				<div className="aurostars-portrait d-flex flex-column justify-content-end align-items-center position-absolute top-0 end-0 mt-3">
 					<div>
 						<Link to="/torajo">
-							<img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/torajo-${torajoColor}.webp`} width={60} alt="torajo" loading="lazy" style={{ borderRadius: "50px" }} />
+							<img src={ torajoPortrait } width={60} alt="torajo" loading="lazy" style={{ borderRadius: "50px" }} />
 						</Link>
 						<Link to="/jesse">
-							<img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/jesse-${jesseColor}.webp`} width={60} alt="jesse" loading="lazy" style={{ borderRadius: "50px" }} />
+							<img src={ jessePortrait } width={60} alt="jesse" loading="lazy" style={{ borderRadius: "50px" }} />
 						</Link>
 						<Link to="/yukime">
-							<img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/yukime-${yukimeColor}.webp`} width={60} alt="yukime" loading="lazy" style={{ borderRadius: "50px" }} />
+							<img src={ yukimePortrait } width={60} alt="yukime" loading="lazy" style={{ borderRadius: "50px" }} />
 						</Link>
 						<Link to="/carolita">
-							<img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/carolita-${carolitaColor}.webp`} width={60} alt="carolita" loading="lazy" style={{ borderRadius: "50px" }} />
+							<img src={ carolitaPortrait } width={60} alt="carolita" loading="lazy" style={{ borderRadius: "50px" }} />
 						</Link>
 						<Link to="/kuro">
-							<img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/kuro-${kuroColor}.webp`} width={60} alt="kuro" loading="lazy" style={{ borderRadius: "50px" }} />
+							<img src={ kuroPortrait } width={60} alt="kuro" loading="lazy" style={{ borderRadius: "50px" }} />
 						</Link>
 						<Link to="/meiko">
-							<img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/meiko-${meikoColor}.webp`} width={60} alt="meiko" loading="lazy" style={{ borderRadius: "50px" }} />
+							<img src={ meikoPortrait } width={60} alt="meiko" loading="lazy" style={{ borderRadius: "50px" }} />
 						</Link>
 						<Link to="/purple">
-							<img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/purple-${purpleColor}.webp`} width={60} alt="purple" loading="lazy" style={{ borderRadius: "50px" }} />
+							<img src={ purplePortrait } width={60} alt="purple" loading="lazy" style={{ borderRadius: "50px" }} />
 						</Link>
 						<Link to="/pardal">
-							<img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/pardal-${pardalColor}.webp`} width={60} alt="pardal" loading="lazy" style={{ borderRadius: "50px" }} />
+							<img src={ pardalPortrait } width={60} alt="pardal" loading="lazy" style={{ borderRadius: "50px" }} />
 						</Link>
 						<Link to="/flora">
-							<img src={`https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/portrait/flora-${floraColor}.webp`} width={60} alt="flora" loading="lazy" style={{ borderRadius: "50px" }} />
+							<img src={ floraPortrait } width={60} alt="flora" loading="lazy" style={{ borderRadius: "50px" }} />
 						</Link>
 					</div>
 					<div>
@@ -109,7 +139,7 @@ const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, 
 						<div className="d-flex justify-content-center w-100">
 							<div className="d-flex flex-column align-items-center">
 								<a href={`${linkTwitter}`} className="mx-4" target="_blank" rel="noreferrer">
-									<img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/icons/twitter.svg" alt="twitter logo" width={80} loading="lazy" />
+									<img src={ xLogo } alt="twitter logo" width={80} loading="lazy" />
 								</a>
 								<div className="d-flex flex-column align-items-center">
 									<p className="text-white fw-bold fs-5 m-0">{followers}</p>
@@ -118,7 +148,7 @@ const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, 
 							</div>
 							<div className="d-flex flex-column align-items-center">
 								<a href={linkYoutube} className="mx-4" target="_blank" rel="noreferrer">
-									<img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/icons/youtube.svg" alt="youtube logo" width={80} loading="lazy" />
+									<img src={ youtubeLogo } alt="youtube logo" width={80} loading="lazy" />
 								</a>
 								<SubscriberCount channelId={channelId} />
 							</div>

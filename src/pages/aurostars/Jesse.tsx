@@ -1,11 +1,13 @@
 import React from "react";
 import PageAurostar from "../../components/PageAurostar";
 
+import jesseTransparent from "../../assets/imgs/jesse-transparent.webp";
+
 const Jesse = () => {
   return (
     <PageAurostar
       aurostar="Jesse Llum"
-      img="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/jesse-transparent.webp"
+      img={ jesseTransparent }
       bgName="jesse"
       loreStart='Jesse Llum é uma estrela que nasceu de um pedido e ganhou consciência após um astronauta à deriva no espaço não desejar morrer sozinho, e isso fez com que ela ganhasse "vida".'
       loreEnd="Ele acabou morrendo, mas ela tinha um propósito a cumprir: Ir para a Terra com o objetivo de fazer companhia para que as pessoas não se sintam solitárias."
