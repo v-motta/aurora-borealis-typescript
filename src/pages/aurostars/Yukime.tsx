@@ -1,11 +1,13 @@
 import React from "react";
 import PageAurostar from "../../components/PageAurostar";
 
+import yukimeTransparent from "../../assets/imgs/yukime-transparent.webp";
+
 const Yukime = () => {
   return (
     <PageAurostar
       aurostar="Yukime Stella"
-      img="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/yukime-transparent.webp"
+      img={ yukimeTransparent }
       bgName="yukime"
       loreStart="A Husky Siberiano mais fofa das galáxias, Yukime Stella, mais conhecida como Yukime!"
       loreEnd="Ela é uma Office Lady e mora no andar de cima de um fliperama. Embora seu nome remeta ao frio, ela tem uma personalidade muito calorosa, quando não está no trabalho, passa o seu tempo jogando."

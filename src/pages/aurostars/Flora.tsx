@@ -1,11 +1,13 @@
 import React from "react";
 import PageAurostar from "../../components/PageAurostar";
 
+import floraTransparent from "../../assets/imgs/flora-transparent.webp";
+
 const Flora = () => {
   return (
     <PageAurostar
       aurostar="Flora Sol'Éclair"
-      img="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/flora-transparent.webp"
+      img={ floraTransparent }
       bgName="flora"
       loreStart="Flora Sol'Éclair é a encarnação viva da Mãe Natureza, viveu entendendo sua essência e como a sua alma e corpo beneficia toda a existência."
       loreEnd="Agora ela vive em busca de conhecer as crianças que vivem entre suas criações, e busca entender seus sentimentos, suas vidas curtas e o que significa ser humano."

@@ -4,6 +4,11 @@ import Footer from "../components/Footer";
 import RevealCard from "../components/CardReveal";
 import { Link } from "react-router-dom";
 
+import logoAurostars from "../assets/imgs/logo-aurostars.webp";
+import torajoHome from "../assets/imgs/torajo-home.webp";
+import jesseHome from "../assets/imgs/jesse-home.webp";
+import bgAurostars2 from "../assets/imgs/bg-aurostars-2.webp";
+
 
 const Aurostars = () => {
 
@@ -20,7 +25,7 @@ const Aurostars = () => {
 					<p>Em nossa primeira geração, temos 9 VTubers, ou como chamamos, estrelas.</p>
 					<p>Role a página para conhecer nossas estrelas!</p>
 				</div>
-				<img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/logo-aurostars.webp" alt="aurostars" width="100%" loading="lazy" />
+				<img src={ logoAurostars } alt="aurostars" width="100%" loading="lazy" />
 			</div>
 
 			<div className="jesse-torajo d-flex flex-column flex-lg-row">
@@ -30,7 +35,7 @@ const Aurostars = () => {
 							<h1 className="text-white text-capitalize fs-5 z-3 position-absolute translate-middle-x fw-bold mb-0">Torajo</h1>
 						</div>
 					</div>
-					<img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/torajo-home.webp" alt="" width="100%" className="invisible" />
+					<img src={ torajoHome } alt="" width="100%" className="invisible" />
 				</Link>
 
 				<Link to="/jesse" className="jesse position-relative">
@@ -39,7 +44,7 @@ const Aurostars = () => {
 							<h1 className="text-white text-capitalize fs-5 z-3 position-absolute translate-middle-x fw-bold mb-0">Jesse</h1>
 						</div>
 					</div>
-					<img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/jesse-home.webp" alt="" width="100%" className="invisible" />
+					<img src={ jesseHome } alt="" width="100%" className="invisible" />
 				</Link>
 			</div>
 
@@ -59,18 +64,8 @@ const Aurostars = () => {
 						</div>
 					</div>
 				</div>
-				<div className="d-flex flex-column flex-sm-row position-relative">
-					<img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/logo.webp" alt="" width={120} id="credit-logo" loading="lazy" />
-					<h1 id="credit-aurostar" style={{ fontSize: "14px" }} className="d-flex flex-column flex-sm-row justify-content-center align-items-center position-absolute top-50 start-50 translate-middle text-uppercase text-white fw-bold text-center w-100">
-						Aurora Borealis Studios
-						<span className="mx-2" style={{ fontSize: "12px" }}>
-							●
-						</span>
-						Aurostars agência de VTuber
-					</h1>
-				</div>
 			</div>
-			<img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-aurostars-2.webp" alt="" width="100%" loading="lazy" />
+			<img src={ bgAurostars2 } alt="" width="100%" loading="lazy" />
 
 
 			<Footer />

@@ -2,6 +2,14 @@ import React from "react";
 import $ from "jquery";
 import { Link } from "react-router-dom";
 
+import starYukime from "../assets/imgs/star-yukime.webp";
+import starCarolita from "../assets/imgs/star-carolita.webp";
+import starKuro from "../assets/imgs/star-kuro.webp";
+import starMeiko from "../assets/imgs/star-meiko.webp";
+import starPurple from "../assets/imgs/star-purple.webp";
+import starPardal from "../assets/imgs/star-pardal.webp";
+import starFlora from "../assets/imgs/star-flora.webp";
+
 interface RevealCardProps {
   aurostar: string;
 }
@@ -22,13 +30,13 @@ const RevealCard = ({ aurostar }: RevealCardProps) => {
   });
 
   const whichStar = () => {
-    if (aurostar === "yukime") return "https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/default-card/star-yukime.webp";
-    if (aurostar === "carolita") return "https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/default-card/star-carolita.webp";
-    if (aurostar === "kuro") return "https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/default-card/star-kuro.webp";
-    if (aurostar === "meiko") return "https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/default-card/star-meiko.webp";
-    if (aurostar === "purple") return "https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/default-card/star-purple.webp";
-    if (aurostar === "pardal") return "https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/default-card/star-pardal.webp";
-    if (aurostar === "flora") return "https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/default-card/star-flora.webp";
+    if (aurostar === "yukime") return starYukime;
+    if (aurostar === "carolita") return starCarolita;
+    if (aurostar === "kuro") return starKuro;
+    if (aurostar === "meiko") return starMeiko;
+    if (aurostar === "purple") return starPurple;
+    if (aurostar === "pardal") return starPardal;
+    if (aurostar === "flora") return starFlora;
   };
 
   return (

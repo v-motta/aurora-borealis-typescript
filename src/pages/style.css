@@ -94,7 +94,7 @@ textarea::placeholder {
 }
 
 .bg-aurostars {
-	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-aurostars.webp");
+	background-image: url("../assets/imgs/bg-aurostars.webp");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -152,7 +152,7 @@ textarea::placeholder {
 }
 
 .jesse {
-	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/jesse-home.webp");
+	background-image: url("../assets/imgs/jesse-home.webp");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -161,7 +161,7 @@ textarea::placeholder {
 }
 
 .torajo {
-	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/torajo-home.webp");
+	background-image: url("../assets/imgs/torajo-home.webp");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -218,55 +218,55 @@ textarea::placeholder {
 }
 
 .bg-screen-yukime {
-	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-yukime.webp");
+	background-image: url("../assets/imgs/bg-yukime.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .bg-screen-carolita {
-	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-carolita.webp");
+	background-image: url("../assets/imgs/bg-carolita.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .bg-screen-kuro {
-	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-kuro.webp");
+	background-image: url("../assets/imgs/bg-kuro.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .bg-screen-meiko {
-	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-meiko.webp");
+	background-image: url("../assets/imgs/bg-meiko.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .bg-screen-purple {
-	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-purple.webp");
+	background-image: url("../assets/imgs/bg-purple.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .bg-screen-pardal {
-	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-pardal.webp");
+	background-image: url("../assets/imgs/bg-pardal.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .bg-screen-flora {
-	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-flora.webp");
+	background-image: url("../assets/imgs/bg-flora.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .bg-screen-torajo {
-	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-torajo.webp");
+	background-image: url("../assets/imgs/bg-torajo.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .bg-screen-jesse {
-	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-jesse.webp");
+	background-image: url("../assets/imgs/bg-jesse.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 100vh;
@@ -274,43 +274,43 @@ textarea::placeholder {
 }
 
 .aurostars-yukime {
-	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/yukime-white.webp");
+	background-image: url("../assets/imgs/yukime-white.webp");
 	background-size: 605%;
 	background-position: 60% 27%;
 }
 
 .aurostars-carolita {
-	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/carolita-white.webp");
+	background-image: url("../assets/imgs/carolita-white.webp");
 	background-size: 440%;
 	background-position: 52% 77%;
 }
 
 .aurostars-kuro {
-	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/kuro-white.webp");
+	background-image: url("../assets/imgs/kuro-white.webp");
 	background-size: 700%;
 	background-position: 49% 58%;
 }
 
 .aurostars-meiko {
-	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/meiko-white.webp");
+	background-image: url("../assets/imgs/meiko-white.webp");
 	background-size: 320%;
 	background-position: 50% 74%;
 }
 
 .aurostars-purple {
-	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/purple-white.webp");
+	background-image: url("../assets/imgs/purple-white.webp");
 	background-size: 400%;
 	background-position: 54% 23%;
 }
 
 .aurostars-pardal {
-	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/pardal-white.webp");
+	background-image: url("../assets/imgs/pardal-white.webp");
 	background-size: 397%;
 	background-position: 29% 38%;
 }
 
 .aurostars-flora {
-	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/flora-white.webp");
+	background-image: url("../assets/imgs/flora-white.webp");
 	background-size: 570%;
 	background-position: 47% 27%;
 }
@@ -343,7 +343,7 @@ textarea::placeholder {
 
 .background-loja {
 	height: 100vh;
-	background-image: url("https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/background/bg-aurostars.webp");
+	background-image: url("../assets/imgs/bg-aurostars.webp");
 	background-repeat: repeat;
 	background-size: cover;
 }

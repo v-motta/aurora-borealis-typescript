@@ -1,11 +1,13 @@
 import React from "react";
 import PageAurostar from "../../components/PageAurostar";
 
+import pardalTransparent from "../../assets/imgs/pardal-transparent.webp";
+
 const Pardal = () => {
   return (
     <PageAurostar
       aurostar="Pardal Ent."
-      img="https://aurora-imagens.s3.sa-east-1.amazonaws.com/aurostars/vtubers/pardal-transparent.webp"
+      img={ pardalTransparent }
       bgName="pardal"
       loreStart='Pardal é um pássaro alquimista, que vive em um moinho de vento onde ele compartilha seus "experimentos", mais conhecidos como... vídeos!'
       loreEnd="Ele os mostra para os humanos e os deixa encantados com suas reações hilárias e sua criatividade.
