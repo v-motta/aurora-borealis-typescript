@@ -1,5 +1,8 @@
 import React from "react";
 
+import meowch1 from "../assets/imgs/meowch1.webp"
+import meowch2 from "../assets/imgs/meowch2.webp"
+
 const CarouselMeowchSection = () => {
   return (
     <div className="award gray-bg text-white d-flex flex-column flex-lg-row justify-content-center p-5 d-lg-flex flex-lg-row align-items-lg-center">
@@ -19,18 +22,21 @@ const CarouselMeowchSection = () => {
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="4" aria-label="Slide 5"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          {/*
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          */}
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/meowch/meowch.webp" className="d-block w-100" alt="meowch" loading="lazy" />
+            <img src={ meowch1 } className="d-block w-100" alt="meowch" loading="lazy" />
           </div>
           <div className="carousel-item">
-            <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/meowch/team1.webp" className="d-block w-100" alt="time foto 1" loading="lazy" />
+            <img src={ meowch2 } className="d-block w-100" alt="time foto 1" loading="lazy" />
           </div>
+        {/*
           <div className="carousel-item">
             <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/meowch/directors1.webp" className="d-block w-100" alt="diretores foto 1" loading="lazy" />
           </div>
@@ -42,7 +48,8 @@ const CarouselMeowchSection = () => {
           </div>
           <div className="carousel-item">
             <img src="https://aurora-imagens.s3.sa-east-1.amazonaws.com/about-page/meowch/team3.webp" className="d-block w-100" alt="time foto 3" loading="lazy" />
-          </div>
+          </div>        
+        */}
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
