@@ -6,7 +6,7 @@ import CarouselMeowchSection from "../components/CarouselMeowchSection";
 import slide1 from "../assets/imgs/slide1.webp";
 import slide2 from "../assets/imgs/slide2.webp";
 import logoTrust from "../assets/imgs/logo-trust.webp";
-import logoRocket from "../assets/imgs/logo-trust.webp";
+import logoRocket from "../assets/imgs/logo-rocket.png";
 import logoLunar from "../assets/imgs/logo-lunar.webp";
 import gobboPortrait from "../assets/imgs/gobbo.webp";
 import tankePortrait from "../assets/imgs/tanke.webp";
@@ -92,9 +92,9 @@ const About = () => {
           <a href="https://instagram.com/trustandriseidiomas?igshid=MzRlODBiNWFlZA==" className="w-50 mb-5 mb-lg-0 me-lg-5" target="_blank" rel="noopener noreferrer">
             <img src={ logoTrust } alt="Trust Rise" className="w-100" />
           </a>
-          {/* <a href="https://wa.me/message/CZQAQUOH2BZ6M1" className="w-50 me-lg-5" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/message/CZQAQUOH2BZ6M1" className="w-50 me-lg-5" target="_blank" rel="noopener noreferrer">
             <img src={ logoRocket } alt="Rocket Design" className="w-100" />
-          </a> */}
+          </a>
           <a href="https://twitter.com/LunarStudioBR" className="w-50" target="_blank" rel="noopener noreferrer">
             <img src={ logoLunar } alt="Lunar Studio" className="w-100" />
           </a>
