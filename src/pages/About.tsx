@@ -92,7 +92,7 @@ const About = () => {
           <a href="https://instagram.com/trustandriseidiomas?igshid=MzRlODBiNWFlZA==" className="w-50 mb-5 mb-lg-0 me-lg-5" target="_blank" rel="noopener noreferrer">
             <img src={ logoTrust } alt="Trust Rise" className="w-100" />
           </a>
-          <a href="https://wa.me/message/CZQAQUOH2BZ6M1" className="w-50 me-lg-5" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/message/CZQAQUOH2BZ6M1" className="w-50 mb-5 mb-lg-0 me-lg-5" target="_blank" rel="noopener noreferrer">
             <img src={ logoRocket } alt="Rocket Design" className="w-100" />
           </a>
           <a href="https://twitter.com/LunarStudioBR" className="w-50" target="_blank" rel="noopener noreferrer">
