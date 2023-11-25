@@ -221,48 +221,80 @@ textarea::placeholder {
 	background-image: url("../assets/imgs/bg-yukime.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .bg-screen-carolita {
 	background-image: url("../assets/imgs/bg-carolita.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .bg-screen-kuro {
 	background-image: url("../assets/imgs/bg-kuro.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .bg-screen-meiko {
 	background-image: url("../assets/imgs/bg-meiko.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .bg-screen-purple {
 	background-image: url("../assets/imgs/bg-purple.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .bg-screen-pardal {
 	background-image: url("../assets/imgs/bg-pardal.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .bg-screen-flora {
 	background-image: url("../assets/imgs/bg-flora.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .bg-screen-torajo {
 	background-image: url("../assets/imgs/bg-torajo.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .bg-screen-jesse {
@@ -271,6 +303,8 @@ textarea::placeholder {
 	background-repeat: no-repeat;
 	min-height: 100vh;
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .aurostars-yukime {

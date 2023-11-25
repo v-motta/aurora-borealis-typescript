@@ -3,7 +3,6 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import SubscriberCount from "./SubscriberCount";
 import { Link, useLocation } from "react-router-dom";
-import LojaAurostar from "./LojaAurostar";
 
 import xLogo from "../assets/imgs/x.webp";
 import youtubeLogo from "../assets/imgs/youtube.webp";
@@ -88,40 +87,39 @@ const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, 
 			<Navbar />
 			<div className={`bg-screen-${bgName} container-fluid w-100 p-5 position-relative`}>
 				<div className="aurostars-portrait d-flex flex-column justify-content-end align-items-center position-absolute top-0 end-0 mt-3">
-					<div>
+					<div className="d-flex flex-column flex-sm-row">
 						<Link to="/torajo">
-							<img src={ torajoPortrait } width={60} alt="torajo" loading="lazy" style={{ borderRadius: "50px" }} />
+							<img src={torajoPortrait} width={50} alt="torajo" loading="lazy" style={{ borderRadius: "50px" }} />
 						</Link>
 						<Link to="/jesse">
-							<img src={ jessePortrait } width={60} alt="jesse" loading="lazy" style={{ borderRadius: "50px" }} />
+							<img src={jessePortrait} width={50} alt="jesse" loading="lazy" style={{ borderRadius: "50px" }} />
 						</Link>
 						<Link to="/yukime">
-							<img src={ yukimePortrait } width={60} alt="yukime" loading="lazy" style={{ borderRadius: "50px" }} />
+							<img src={yukimePortrait} width={50} alt="yukime" loading="lazy" style={{ borderRadius: "50px" }} />
 						</Link>
 						<Link to="/carolita">
-							<img src={ carolitaPortrait } width={60} alt="carolita" loading="lazy" style={{ borderRadius: "50px" }} />
+							<img src={carolitaPortrait} width={50} alt="carolita" loading="lazy" style={{ borderRadius: "50px" }} />
 						</Link>
 						<Link to="/kuro">
-							<img src={ kuroPortrait } width={60} alt="kuro" loading="lazy" style={{ borderRadius: "50px" }} />
+							<img src={kuroPortrait} width={50} alt="kuro" loading="lazy" style={{ borderRadius: "50px" }} />
 						</Link>
 						<Link to="/meiko">
-							<img src={ meikoPortrait } width={60} alt="meiko" loading="lazy" style={{ borderRadius: "50px" }} />
+							<img src={meikoPortrait} width={50} alt="meiko" loading="lazy" style={{ borderRadius: "50px" }} />
 						</Link>
 						<Link to="/purple">
-							<img src={ purplePortrait } width={60} alt="purple" loading="lazy" style={{ borderRadius: "50px" }} />
+							<img src={purplePortrait} width={50} alt="purple" loading="lazy" style={{ borderRadius: "50px" }} />
 						</Link>
 						<Link to="/pardal">
-							<img src={ pardalPortrait } width={60} alt="pardal" loading="lazy" style={{ borderRadius: "50px" }} />
+							<img src={pardalPortrait} width={50} alt="pardal" loading="lazy" style={{ borderRadius: "50px" }} />
 						</Link>
 						<Link to="/flora">
-							<img src={ floraPortrait } width={60} alt="flora" loading="lazy" style={{ borderRadius: "50px" }} />
+							<img src={floraPortrait} width={50} alt="flora" loading="lazy" style={{ borderRadius: "50px" }} />
 						</Link>
 					</div>
-					<div>
+					<div className="d-none d-sm-flex">
 						<p className="text-white mt-2">Navegue entre as estrelas</p>
 					</div>
 				</div>
-				<LojaAurostar aurostar={aurostar} linkLojaAurostar={linkLojaAurostar} />
 				<div className="row flex-column flex-lg-row justify-content-center align-items-center w-100 m-0">
 					<div className="col-12 col-lg-5">
 						<img src={img} alt={aurostar} className="w-100" loading="lazy" />
@@ -136,10 +134,10 @@ const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, 
 						<h2 className="text-center fw-bold text-white fs-5 mt-3 mb-4">
 							Acompanhe {gender === "male" ? "o" : "a"} {aurostar} nas redes sociais!
 						</h2>
-						<div className="d-flex justify-content-center w-100">
+						<div className="d-flex justify-content-center w-100 mb-0 mb-sm-5">
 							<div className="d-flex flex-column align-items-center">
 								<a href={`${linkTwitter}`} className="mx-4" target="_blank" rel="noreferrer">
-									<img src={ xLogo } alt="twitter logo" width={80} loading="lazy" />
+									<img src={xLogo} alt="twitter logo" width={80} loading="lazy" />
 								</a>
 								<div className="d-flex flex-column align-items-center">
 									<p className="text-white fw-bold fs-5 m-0">{followers}</p>
@@ -148,12 +146,18 @@ const PageAurostar = ({ img, bgName, aurostar, loreStart, loreEnd, linkTwitter, 
 							</div>
 							<div className="d-flex flex-column align-items-center">
 								<a href={linkYoutube} className="mx-4" target="_blank" rel="noreferrer">
-									<img src={ youtubeLogo } alt="youtube logo" width={80} loading="lazy" />
+									<img src={youtubeLogo} alt="youtube logo" width={80} loading="lazy" />
 								</a>
 								<SubscriberCount channelId={channelId} />
 							</div>
 						</div>
 					</div>
+				</div>
+				<div className="position-absolute bottom-0 d-none d-sm-flex end-0 mt-3">
+					<a href={linkLojaAurostar} className="btn btn-dark p-3 px-4 mb-3 me-4" target="_blank" rel="noreferrer">Conheça os produtos {aurostar} <i className="bi bi-bag-fill ms-3"></i></a>
+				</div>
+				<div className="d-flex d-sm-none justify-content-center mt-3">
+					<a href={linkLojaAurostar} className="btn btn-dark p-3 px-4" target="_blank" rel="noreferrer">Conheça os produtos <br></br> {aurostar} <i className="bi bi-bag-fill ms-3"></i></a>
 				</div>
 			</div>
 			<Footer />
