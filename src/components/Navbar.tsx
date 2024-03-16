@@ -5,10 +5,24 @@ import logoAurora from "../assets/imgs/logo-aurora.webp";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg" style={{ fontFamily: "IBM Plex Sans", fontStyle: "italic", borderBottom: "1px solid #fff", backgroundColor: "#212121" }} data-bs-theme="dark">
+    <nav
+      className="navbar navbar-expand-lg"
+      style={{
+        fontFamily: "IBM Plex Sans",
+        fontStyle: "italic",
+        borderBottom: "1px solid #fff",
+        backgroundColor: "#212121",
+      }}
+      data-bs-theme="dark"
+    >
       <div className="container-fluid">
         <NavLink className="navbar-brand ms-4 ms-lg-5" to="/">
-          <img src={ logoAurora } alt="Aurora Borealis logo" height="40" loading="lazy" />
+          <img
+            src={logoAurora}
+            alt="Aurora Borealis logo"
+            height="40"
+            loading="lazy"
+          />
         </NavLink>
         <button
           className="navbar-toggler"
@@ -21,7 +35,10 @@ const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse justify-content-end me-4" id="navbarNavAltMarkup">
+        <div
+          className="collapse navbar-collapse justify-content-end me-4"
+          id="navbarNavAltMarkup"
+        >
           <div className="navbar-nav">
             <NavLink className="nav-link mx-4" to="/">
               Sobre
@@ -29,12 +46,14 @@ const Navbar = () => {
             <NavLink className="nav-link mx-4" to="/aurostars">
               Aurostars
             </NavLink>
-            <a href="https://loja.aurorabstudios.com/" className="nav-link mx-4" target="_blank" rel="noreferrer">
+            <a
+              href="https://loja.aurorabstudios.com/"
+              className="nav-link mx-4"
+              target="_blank"
+              rel="noreferrer"
+            >
               Loja
             </a>
-            <NavLink className="nav-link mx-4" to="/lovestruck">
-              Lovestruck
-            </NavLink>
             <NavLink className="nav-link mx-4" to="/contact">
               FAQ & Contato
             </NavLink>

@@ -7,7 +7,6 @@ import Kuro from "../pages/aurostars/Kuro";
 import Meiko from "../pages/aurostars/Meiko";
 import Yukime from "../pages/aurostars/Yukime";
 import Contact from "../pages/Contact";
-import Lovestruck from "../pages/Lovestruck";
 import Jesse from "../pages/aurostars/Jesse";
 import Torajo from "../pages/aurostars/Torajo";
 import Purple from "../pages/aurostars/Purple";
@@ -20,7 +19,6 @@ const Router = () => {
       <Routes>
         <Route path="*" element={<Navigate to="/" replace />} />
         <Route path="/" element={<About />} />
-        <Route path="/lovestruck" element={<Lovestruck />} />
         <Route path="/aurostars" element={<Aurostars />} />
         <Route path="/contact" element={<Contact />} />
         {/* aurostars routes */}
